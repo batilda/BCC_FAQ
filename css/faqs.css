@@ -1,0 +1,251 @@
+.wrapper-page {
+}
+
+.top-block.theme_faqs {
+	padding: 0;
+	background-color: #004b8e;
+	background-image: url("../build/images/FAQs/faqs_bg_1920.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.breadcrumbs__block--faqs * {
+	color: #fff;
+}
+
+.breadcrumbs__block--faqs:hover *,
+.breadcrumbs__block--faqs:focus *  {
+	color: #fff;
+}
+
+.top-block-content--faqs h1 {
+	text-align: left;
+	color: #ffe875;
+}
+
+.top-block-content-txttable-right-text--faqs {
+		color: #fff;
+}
+
+.top-block-faq {
+	margin: 0 40px;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.faq__item-opacity {
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	bottom: -50px;
+	left: -50px;
+	z-index: 0;
+	background-color: #fff;
+	opacity: 0.8;
+}
+
+.faq__item {
+	display: flex;
+	padding: 50px 20px 20px 0px;
+	width: 100%;
+}
+
+.faq__item--top {
+	position: relative;
+	margin: auto;
+	padding: 35px 20px 55px 0px;
+	z-index: 1;
+	/* background-image: url("../build/images/FAQs/transparent_bg.png");
+	background-repeat: repeat;
+	background-size: cover; */
+}
+
+
+.faq__item--last {
+	margin-bottom: 50px;
+	outline: red;
+}
+
+.faq__category {
+	position: relative;
+	padding: 90px 10px 10px;
+	width: 17%;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	color: #205fad;
+	text-align: center;
+}
+
+.faq__category::before {
+	content: "";
+	position: absolute;
+	width: 82px;
+	height: 82px;
+	top: -15px;
+	left: 50%;
+	transform: translatex(-50%);
+	background-image: url("../build/images/FAQs/FAQ_sprites.png");
+}
+
+.faq__category--bad::before {
+	background-position: -3px -107px;;
+}
+.faq__category--transfer::before {
+	background-position: -98px -107px;;
+}
+.faq__category--best::before {
+	background-position: -194px -107px;;
+}
+.faq__category--business::before {
+	background-position: -288px -107px;;
+}
+.faq__category--banks::before {
+	background-position: -383px -107px;;
+}
+.faq__category--fees::before {
+	background-position: -478px -107px;;
+}
+.faq__category--rewards::before {
+	background-position: -3px -197px;
+}
+.faq__category--fair::before {
+	background-position: -98px -197px;
+}
+.faq__category--foreign::before {
+	background-position: -192px -198px;
+}
+.faq__category--instant::before {
+	background-position: -288px -197px;
+}
+.faq__category--low-rate::before {
+	background-position: -383px -197px;
+}
+.faq__category--mastercard::before {
+	background-position: -478px -197px;
+}
+.faq__category--no-credit::before {
+	background-position: -3px -287px;
+}
+.faq__category--prepaid::before {
+	background-position: -98px -287px;
+}
+.faq__category--secured::before {
+	background-position: -193px -287px;
+}
+.faq__category--student::before {
+	background-position: -288px -287px;
+}
+.faq__category--student_top::before {
+	background-position: -860px -287px;
+}
+.faq__category--visa::before {
+	background-position: -383px -287px;
+}
+.faq__category--travel::before {
+	background-position: -478px -287px;
+}
+
+.faq__content {
+	width: 83%;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.faq__date {
+	margin-bottom: 18px;
+	color: #666;
+}
+
+.faq__ask {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: justify;
+}
+
+.faq__answer {
+	margin-bottom: 10px;
+	color: #4d4d4d;
+	text-align: justify;
+}
+
+.faq__continue {
+	display: block;
+	text-align: right;
+	color: #237FDC;
+}
+
+.faq__continue:hover,
+.faq__continue:focus {
+	text-decoration: underline;
+}
+
+.faq__form {
+	padding: 50px 20px;
+	background-color: #55abff;
+}
+
+.faq__bottom {
+	display: flex;
+	height: 180px;
+}
+
+.faq__bottom-text {
+	width: 40%;
+}
+
+.faq__bottom-links {
+	display: flex;
+	width: 60%;
+	flex-direction: column;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.sidebar-search
+{
+	background-color: #e5f1ff;
+	margin: 0 0 15px 0;
+	padding: 10px 20px;
+}
+.sidebar-search h2
+{
+	color: #4d4d4d;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 26px;
+	margin: 0 auto;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sidebar-faq-categories
+{
+	background-color: #e5f1ff;
+	margin: 0 0 15px 0;
+	padding: 10px 20px;
+}
+.sidebar-faq-categories h2
+{
+	color: #4d4d4d;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 26px;
+	margin: 0 auto;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.subscribe
+{
+	background-color: #054086;
+	margin: 20px 0;
+	padding: 28px 20px 34px;
+	text-align: center;
+}
