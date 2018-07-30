@@ -1812,7 +1812,7 @@ hr
 }
 .top__logo-image:before
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: 0px -71px;
 	content: '';
 	display: inline-block;
@@ -1947,7 +1947,7 @@ hr
 .top__search-button
 {
 	background-color: transparent;
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: -111px -45px;
 	background-repeat: no-repeat;
 	border: none;
@@ -1979,21 +1979,21 @@ hr
 }
 .top__soc-icon_google
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: -43px -71px;
 	height: 28px;
 	width: 28px;
 }
 .top__soc-icon_facebook
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: -99px -71px;
 	height: 28px;
 	width: 27px;
 }
 .top__soc-icon_twitter
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: -71px -71px;
 	height: 28px;
 	width: 28px;
@@ -2076,7 +2076,7 @@ hr
 }
 .nav_dropdown span:after
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: -168px -45px;
 	content: '';
 	display: inline-block;
@@ -2423,7 +2423,7 @@ hr
 }
 .mobile-search
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: -111px -45px;
 	height: 24px;
 	position: absolute;
@@ -2552,7 +2552,7 @@ hr
 }
 .bottom__logo-image:before
 {
-	background-image: url(../build/sprites/common.png);
+	background-image: url(../build/sprites///common.png);
 	background-position: 0px -71px;
 	content: '';
 	display: inline-block;
@@ -3204,14 +3204,14 @@ hr
 	}
 	.owl-prev:after
 	{
-		background-image: url(../build/sprites/common.png);
+		background-image: url(../build/sprites///common.png);
 		background-position: -64px -99px;
 		height: 31px;
 		width: 15px;
 	}
 	.owl-prev.active:after
 	{
-		background-image: url(../build/sprites/common.png);
+		background-image: url(../build/sprites///common.png);
 		background-position: -16px -99px;
 		height: 31px;
 		width: 16px;
@@ -3222,14 +3222,14 @@ hr
 	}
 	.owl-next:after
 	{
-		background-image: url(../build/sprites/common.png);
+		background-image: url(../build/sprites///common.png);
 		background-position: -32px -99px;
 		height: 31px;
 		width: 16px;
 	}
 	.owl-next.active:after
 	{
-		background-image: url(../build/sprites/common.png);
+		background-image: url(../build/sprites///common.png);
 		background-position: -48px -99px;
 		height: 31px;
 		width: 16px;
@@ -4141,40 +4141,40 @@ html,body
 @font-face
 {
 	font-family: "SegoeUIRegular";
-	src: url("/build/fonts/SegoeUIRegular/SegoeUIRegular.eot");
-	src: url("/build/fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"),url("/build/fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),url("/build/fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+	src: url("../build/fonts/SegoeUIRegular/SegoeUIRegular.eot");
+	src: url("../build/fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"),url("../build/fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),url("../build/fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
 }
 @font-face
 {
 	font-family: "SegoeUIBold";
 	font-style: normal;
 	font-weight: normal;
-	src: url("/build/fonts/SegoeUIBold/SegoeUIBold.eot");
-	src: url("/build/fonts/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"),url("/build/fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),url("/build/fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+	src: url("../build/fonts/SegoeUIBold/SegoeUIBold.eot");
+	src: url("../build/fonts/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"),url("../build/fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),url("../build/fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
 }
 @font-face
 {
 	font-family: "SegoeUIItalic";
 	font-style: normal;
 	font-weight: normal;
-	src: url("/build/fonts/SegoeUIItalic/SegoeUIItalic.eot");
-	src: url("/build/fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix") format("embedded-opentype"),url("/build/fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),url("/build/fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+	src: url("../build/fonts/SegoeUIItalic/SegoeUIItalic.eot");
+	src: url("../build/fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix") format("embedded-opentype"),url("../build/fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),url("../build/fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
 }
 @font-face
 {
 	font-family: "SegoeUILight";
 	font-style: normal;
 	font-weight: normal;
-	src: url("/build/fonts/SegoeUILight/SegoeUILight.eot");
-	src: url("/build/fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"),url("/build/fonts/SegoeUILight/SegoeUILight.woff") format("woff"),url("/build/fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+	src: url("../build/fonts/SegoeUILight/SegoeUILight.eot");
+	src: url("../build/fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"),url("../build/fonts/SegoeUILight/SegoeUILight.woff") format("woff"),url("../build/fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
 }
 @font-face
 {
 	font-family: "SegoeUISemiBold";
 	font-style: normal;
 	font-weight: normal;
-	src: url("/build/fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
-	src: url("/build/fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"),url("/build/fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),url("/build/fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+	src: url("../build/fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+	src: url("../build/fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"),url("../build/fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),url("../build/fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
 }
 .subscribe
 {
@@ -4266,28 +4266,28 @@ html,body
 }
 .subscribe-social-facebook
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: 0px -33px;
 	height: 33px;
 	width: 33px;
 }
 .subscribe-social-trust_pilot
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -34px 0px;
 	height: 33px;
 	width: 34px;
 }
 .subscribe-social-twitter
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -33px -33px;
 	height: 33px;
 	width: 33px;
 }
 .subscribe-social-google_plus
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: 0px 0px;
 	height: 33px;
 	width: 34px;
@@ -4370,7 +4370,7 @@ html,body
 }
 .subscribe-thank-message .close
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -42px -66px;
 	cursor: pointer;
 	height: 18px;
@@ -4572,7 +4572,7 @@ html,body
 }
 .subscribe-popup .history-col .radio
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: 0px -66px;
 	cursor: pointer;
 	display: block;
@@ -4583,7 +4583,7 @@ html,body
 }
 .subscribe-popup .history-col .radio-act
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -68px -44px;
 	cursor: pointer;
 	display: block;
@@ -4644,7 +4644,7 @@ html,body
 }
 .subscribe-popup .themes-col .checkbox
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -68px -22px;
 	cursor: pointer;
 	display: block;
@@ -4656,7 +4656,7 @@ html,body
 }
 .subscribe-popup .themes-col .checkbox-act
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -68px 0px;
 	cursor: pointer;
 	display: block;
@@ -4760,7 +4760,7 @@ html,body
 }
 .subscribe-popup .close
 {
-	background-image: url(../build/sprites/subscribe.png);
+	background-image: url(../build/sprites//subscribe.png);
 	background-position: -42px -66px;
 	cursor: pointer;
 	height: 18px;
@@ -5778,7 +5778,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-bad
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites//sidebar.png);
 	background-position: -50px 0px;
 	height: 48px;
 	width: 50px;
@@ -5787,7 +5787,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-bad
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px -99px;
 		height: 34px;
 		width: 35px;
@@ -5797,7 +5797,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-bad
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -50px 0px;
 		height: 48px;
 		width: 50px;
@@ -5805,7 +5805,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-bank
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -96px -94px;
 	height: 42px;
 	width: 47px;
@@ -5814,7 +5814,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-bank
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px -89px;
 		height: 29px;
 		width: 32px;
@@ -5824,7 +5824,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-bank
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -96px -94px;
 		height: 42px;
 		width: 47px;
@@ -5832,7 +5832,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-bonus
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: 0px -94px;
 	height: 44px;
 	width: 47px;
@@ -5841,7 +5841,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-bonus
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px -29px;
 		height: 30px;
 		width: 32px;
@@ -5851,7 +5851,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-bonus
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px -94px;
 		height: 44px;
 		width: 47px;
@@ -5859,7 +5859,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-good
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: 0px 0px;
 	height: 48px;
 	width: 50px;
@@ -5868,7 +5868,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-good
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px -65px;
 		height: 34px;
 		width: 35px;
@@ -5878,7 +5878,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-good
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px 0px;
 		height: 48px;
 		width: 50px;
@@ -5886,7 +5886,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-score
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -143px 0px;
 	height: 35px;
 	width: 54px;
@@ -5895,7 +5895,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-score
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -31px -138px;
 		height: 26px;
 		width: 39px;
@@ -5905,7 +5905,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-score
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px 0px;
 		height: 35px;
 		width: 54px;
@@ -5913,7 +5913,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-tech
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -47px -94px;
 	height: 42px;
 	width: 49px;
@@ -5922,7 +5922,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-tech
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px 0px;
 		height: 29px;
 		width: 34px;
@@ -5932,7 +5932,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-tech
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -47px -94px;
 		height: 42px;
 		width: 49px;
@@ -5940,7 +5940,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-types
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -51px -48px;
 	height: 44px;
 	width: 47px;
@@ -5949,7 +5949,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-types
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px -59px;
 		height: 30px;
 		width: 32px;
@@ -5959,7 +5959,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-types
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -51px -48px;
 		height: 44px;
 		width: 47px;
@@ -5967,7 +5967,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-calculator
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -100px 0px;
 	height: 49px;
 	width: 43px;
@@ -5976,7 +5976,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-calculator
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px -138px;
 		height: 35px;
 		width: 31px;
@@ -5986,7 +5986,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-calculator
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -100px 0px;
 		height: 49px;
 		width: 43px;
@@ -5994,7 +5994,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-money
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -143px -35px;
 	height: 30px;
 	width: 53px;
@@ -6003,7 +6003,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-money
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -70px -138px;
 		height: 20px;
 		width: 36px;
@@ -6013,7 +6013,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-money
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px -35px;
 		height: 30px;
 		width: 53px;
@@ -6021,7 +6021,7 @@ html,body
 }
 .sidebar-links-content-icon .icon-sidebar-graph
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: 0px -48px;
 	height: 46px;
 	width: 51px;
@@ -6030,7 +6030,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-graph
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -100px -49px;
 		height: 32px;
 		width: 36px;
@@ -6040,7 +6040,7 @@ html,body
 {
 	.sidebar-links-content-icon .icon-sidebar-graph
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px -48px;
 		height: 46px;
 		width: 51px;
@@ -6297,7 +6297,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-bad
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -50px 0px;
 	height: 48px;
 	width: 50px;
@@ -6306,7 +6306,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-bad
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px -99px;
 		height: 34px;
 		width: 35px;
@@ -6316,7 +6316,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-bad
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -50px 0px;
 		height: 48px;
 		width: 50px;
@@ -6324,7 +6324,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-bank
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -96px -94px;
 	height: 42px;
 	width: 47px;
@@ -6333,7 +6333,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-bank
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px -89px;
 		height: 29px;
 		width: 32px;
@@ -6343,7 +6343,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-bank
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -96px -94px;
 		height: 42px;
 		width: 47px;
@@ -6351,7 +6351,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-bonus
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: 0px -94px;
 	height: 44px;
 	width: 47px;
@@ -6360,7 +6360,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-bonus
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px -29px;
 		height: 30px;
 		width: 32px;
@@ -6370,7 +6370,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-bonus
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px -94px;
 		height: 44px;
 		width: 47px;
@@ -6378,7 +6378,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-good
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: 0px 0px;
 	height: 48px;
 	width: 50px;
@@ -6387,7 +6387,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-good
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px -65px;
 		height: 34px;
 		width: 35px;
@@ -6397,7 +6397,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-good
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px 0px;
 		height: 48px;
 		width: 50px;
@@ -6405,7 +6405,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-score
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -143px 0px;
 	height: 35px;
 	width: 54px;
@@ -6414,7 +6414,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-score
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -31px -138px;
 		height: 26px;
 		width: 39px;
@@ -6424,7 +6424,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-score
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px 0px;
 		height: 35px;
 		width: 54px;
@@ -6432,7 +6432,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-tech
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -47px -94px;
 	height: 42px;
 	width: 49px;
@@ -6441,7 +6441,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-tech
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px 0px;
 		height: 29px;
 		width: 34px;
@@ -6451,7 +6451,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-tech
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -47px -94px;
 		height: 42px;
 		width: 49px;
@@ -6459,7 +6459,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-types
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -51px -48px;
 	height: 44px;
 	width: 47px;
@@ -6468,7 +6468,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-types
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -197px -59px;
 		height: 30px;
 		width: 32px;
@@ -6478,7 +6478,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-types
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -51px -48px;
 		height: 44px;
 		width: 47px;
@@ -6486,7 +6486,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-calculator
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -100px 0px;
 	height: 49px;
 	width: 43px;
@@ -6495,7 +6495,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-calculator
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px -138px;
 		height: 35px;
 		width: 31px;
@@ -6505,7 +6505,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-calculator
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -100px 0px;
 		height: 49px;
 		width: 43px;
@@ -6513,7 +6513,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-money
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: -143px -35px;
 	height: 30px;
 	width: 53px;
@@ -6522,7 +6522,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-money
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -70px -138px;
 		height: 20px;
 		width: 36px;
@@ -6532,7 +6532,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-money
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -143px -35px;
 		height: 30px;
 		width: 53px;
@@ -6540,7 +6540,7 @@ html,body
 }
 .sidebar-tools-content-icon .icon-sidebar-graph
 {
-	background-image: url(../build/sprites/sidebar.png);
+	background-image: url(../build/sprites///sidebar.png);
 	background-position: 0px -48px;
 	height: 46px;
 	width: 51px;
@@ -6549,7 +6549,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-graph
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: -100px -49px;
 		height: 32px;
 		width: 36px;
@@ -6559,7 +6559,7 @@ html,body
 {
 	.sidebar-tools-content-icon .icon-sidebar-graph
 	{
-		background-image: url(../build/sprites/sidebar.png);
+		background-image: url(../build/sprites///sidebar.png);
 		background-position: 0px -48px;
 		height: 46px;
 		width: 51px;
@@ -7630,7 +7630,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-0
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: 0px 0px;
 	height: 46px;
 	width: 46px;
@@ -7639,7 +7639,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-0
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -35px -218px;
 		height: 35px;
 		width: 35px;
@@ -7647,7 +7647,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-1
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -46px 0px;
 	height: 46px;
 	width: 46px;
@@ -7656,7 +7656,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-1
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -70px -218px;
 		height: 35px;
 		width: 35px;
@@ -7664,7 +7664,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-2
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -46px -46px;
 	height: 45px;
 	width: 46px;
@@ -7673,7 +7673,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-2
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -184px -43px;
 		height: 35px;
 		width: 35px;
@@ -7681,7 +7681,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-3
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: 0px -46px;
 	height: 45px;
 	width: 46px;
@@ -7690,7 +7690,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-3
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: 0px -218px;
 		height: 35px;
 		width: 35px;
@@ -7698,7 +7698,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-4
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -92px 0px;
 	height: 45px;
 	width: 46px;
@@ -7707,7 +7707,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-4
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -184px -78px;
 		height: 35px;
 		width: 35px;
@@ -7715,7 +7715,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-5
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -92px -45px;
 	height: 45px;
 	width: 45px;
@@ -7724,7 +7724,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.ratingicon .rating-value-5
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -227px 0px;
 		height: 35px;
 		width: 35px;
@@ -7748,7 +7748,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-any
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -92px -91px;
 	height: 42px;
 	width: 46px;
@@ -7757,7 +7757,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-any
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -141px -218px;
 		height: 34px;
 		width: 36px;
@@ -7765,7 +7765,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-exgood
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -138px -42px;
 	height: 42px;
 	width: 46px;
@@ -7774,7 +7774,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-exgood
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -105px -218px;
 		height: 34px;
 		width: 36px;
@@ -7782,7 +7782,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-fair
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -46px -91px;
 	height: 43px;
 	width: 46px;
@@ -7791,7 +7791,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-fair
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -177px -218px;
 		height: 33px;
 		width: 36px;
@@ -7799,7 +7799,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-bad
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -138px 0px;
 	height: 42px;
 	width: 46px;
@@ -7808,7 +7808,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-bad
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px 0px;
 		height: 33px;
 		width: 36px;
@@ -7816,7 +7816,7 @@ html,body
 }
 .top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-no
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: 0px -91px;
 	height: 43px;
 	width: 46px;
@@ -7825,7 +7825,7 @@ html,body
 {
 	.top-block-content .best-card-content-blocks-2-1-item.historyicon .history-value-no
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -213px -218px;
 		height: 33px;
 		width: 36px;
@@ -8712,7 +8712,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-0
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: 0px -134px;
 	height: 43px;
 	width: 43px;
@@ -8721,7 +8721,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.ratingicon .rating-value-0
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -227px -70px;
 		height: 35px;
 		width: 35px;
@@ -8729,7 +8729,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-1
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -138px -84px;
 	height: 43px;
 	width: 43px;
@@ -8738,7 +8738,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.ratingicon .rating-value-1
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -227px -140px;
 		height: 35px;
 		width: 35px;
@@ -8746,7 +8746,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-2
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -184px 0px;
 	height: 43px;
 	width: 43px;
@@ -8755,7 +8755,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.ratingicon .rating-value-2
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -184px -113px;
 		height: 35px;
 		width: 35px;
@@ -8763,7 +8763,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-3
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -129px -134px;
 	height: 43px;
 	width: 43px;
@@ -8772,7 +8772,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.ratingicon .rating-value-3
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -227px -35px;
 		height: 35px;
 		width: 35px;
@@ -8780,7 +8780,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-4
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -86px -134px;
 	height: 43px;
 	width: 43px;
@@ -8789,7 +8789,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.ratingicon .rating-value-4
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -227px -105px;
 		height: 35px;
 		width: 35px;
@@ -8797,7 +8797,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-5
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -43px -134px;
 	height: 43px;
 	width: 43px;
@@ -8806,7 +8806,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.ratingicon .rating-value-5
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -227px -175px;
 		height: 35px;
 		width: 35px;
@@ -8896,7 +8896,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.historyicon .history-value-any
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -88px -177px;
 	height: 40px;
 	width: 44px;
@@ -8905,7 +8905,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.historyicon .history-value-any
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -163px;
 		height: 32px;
 		width: 35px;
@@ -8913,7 +8913,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.historyicon .history-value-exgood
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -176px -177px;
 	height: 40px;
 	width: 44px;
@@ -8922,7 +8922,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.historyicon .history-value-exgood
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -67px;
 		height: 32px;
 		width: 35px;
@@ -8930,7 +8930,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.historyicon .history-value-fair
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -44px -177px;
 	height: 41px;
 	width: 44px;
@@ -8939,7 +8939,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.historyicon .history-value-fair
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -195px;
 		height: 32px;
 		width: 35px;
@@ -8947,7 +8947,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.historyicon .history-value-bad
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -132px -177px;
 	height: 40px;
 	width: 44px;
@@ -8956,7 +8956,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.historyicon .history-value-bad
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -131px;
 		height: 32px;
 		width: 35px;
@@ -8964,7 +8964,7 @@ html,body
 }
 .cards-content-item-top-right-top-cell.historyicon .history-value-no
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: 0px -177px;
 	height: 41px;
 	width: 44px;
@@ -8973,7 +8973,7 @@ html,body
 {
 	.cards-content-item-top-right-top-cell.historyicon .history-value-no
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -99px;
 		height: 32px;
 		width: 35px;
@@ -10020,7 +10020,7 @@ html,body
 }
 .minitool-block1-right-time:after
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -262px -33px;
 	content: '';
 	height: 34px;
@@ -10033,7 +10033,7 @@ html,body
 {
 	.minitool-block1-right-time:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: 0px -253px;
 		height: 31px;
 		right: 20px;
@@ -10044,7 +10044,7 @@ html,body
 {
 	.minitool-block1-right-time:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -30px -253px;
 		height: 26px;
 		width: 26px;
@@ -10054,7 +10054,7 @@ html,body
 {
 	.minitool-block1-right-time:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: 0px -253px;
 		height: 31px;
 		width: 30px;
@@ -10079,7 +10079,7 @@ html,body
 {
 	.minitool-block1-right-time:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -30px -253px;
 		height: 26px;
 		width: 26px;
@@ -10131,7 +10131,7 @@ html,body
 }
 .minitool-block1-right-score:after
 {
-	background-image: url(../build/sprites/banks-landings-respons.png);
+	background-image: url(../build/sprites///banks-landings-respons.png);
 	background-position: -184px -148px;
 	content: '';
 	height: 25px;
@@ -10144,7 +10144,7 @@ html,body
 {
 	.minitool-block1-right-score:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -227px;
 		height: 22px;
 		right: 17px;
@@ -10155,7 +10155,7 @@ html,body
 {
 	.minitool-block1-right-score:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -56px -253px;
 		height: 19px;
 		width: 29px;
@@ -10165,7 +10165,7 @@ html,body
 {
 	.minitool-block1-right-score:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -262px -227px;
 		height: 22px;
 		width: 33px;
@@ -10190,7 +10190,7 @@ html,body
 {
 	.minitool-block1-right-score:after
 	{
-		background-image: url(../build/sprites/banks-landings-respons.png);
+		background-image: url(../build/sprites///banks-landings-respons.png);
 		background-position: -56px -253px;
 		height: 19px;
 		width: 29px;

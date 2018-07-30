@@ -27,7 +27,9 @@ Visa Credit Cards
 Travel Credit Cards
 
 
-"После 4 и 8 вопроса выводится реклама Adsense." - после 4 и 7 вопроса вообще-то. Но это (4 и 7) как раз рхорошо выглядит.
+"После 4 и 8 вопроса выводится реклама Adsense." - после 4 и 7 вопроса и на картинке и по логике, текст надо исправить.
+
+Сайдбар сделала по аналогии с https://www.bestcreditoffers.com/credit-cards-for-maximum-savings-100.php (даже если были отклонения от дизайна)
 
 Для перестраивания перелинковок в разное количество колонок указала высоту напрямую:
 .faq__bottom {
@@ -40,7 +42,7 @@ Travel Credit Cards
 https://www.bestcreditoffers.com/good-credit-card-offers.php
 в теге
 <style type="text/css" data-src="/build/css/faqs.css" data-hash="3a7bfbd2">
-data-hash - это уничерсальный атрибут data-*, который можно применять к любому тегу для хранения значений.
+data-hash - это универсальный атрибут data-*, который можно применять к любому тегу для хранения значений.
 
 
 микроразметка - это вот так: 

@@ -1,6 +1,3 @@
-.wrapper-page {
-}
-
 .top-block.theme_faqs {
 	padding: 0;
 	background-color: #004b8e;
@@ -35,6 +32,12 @@
 	overflow: hidden;
 }
 
+@media (max-width: 1200px) {
+.top-block-faq {
+	margin: 0 40px;
+	}
+}
+
 .faq__item-opacity {
 	position: absolute;
 	top: -50px;
@@ -48,7 +51,7 @@
 
 .faq__item {
 	display: flex;
-	padding: 50px 20px 20px 0px;
+	padding: 50px 20px 20px 0;
 	width: 100%;
 }
 
@@ -57,9 +60,6 @@
 	margin: auto;
 	padding: 35px 20px 55px 0px;
 	z-index: 1;
-	/* background-image: url("../build/images/FAQs/transparent_bg.png");
-	background-repeat: repeat;
-	background-size: cover; */
 }
 
 
@@ -71,11 +71,15 @@
 .faq__category {
 	position: relative;
 	padding: 90px 10px 10px;
-	width: 17%;
+	width: 19%;
 	font-family: "Trebuchet MS";
 	font-size: 16px;
 	color: #205fad;
 	text-align: center;
+}
+
+.faq__item--top .faq__category {
+  width: 14%;
 }
 
 .faq__category::before {
@@ -90,19 +94,19 @@
 }
 
 .faq__category--bad::before {
-	background-position: -3px -107px;;
+	background-position: -3px -107px;
 }
-.faq__category--transfer::before {
-	background-position: -98px -107px;;
+.faq__category--balance::before {
+	background-position: -98px -107px;
 }
 .faq__category--best::before {
-	background-position: -194px -107px;;
+	background-position: -194px -107px;
 }
 .faq__category--business::before {
-	background-position: -288px -107px;;
+	background-position: -288px -107px;
 }
 .faq__category--banks::before {
-	background-position: -383px -107px;;
+	background-position: -383px -107px;
 }
 .faq__category--fees::before {
 	background-position: -478px -107px;;
@@ -137,9 +141,6 @@
 .faq__category--student::before {
 	background-position: -288px -287px;
 }
-.faq__category--student_top::before {
-	background-position: -860px -287px;
-}
 .faq__category--visa::before {
 	background-position: -383px -287px;
 }
@@ -147,10 +148,69 @@
 	background-position: -478px -287px;
 }
 
+.faq__item--top .faq__category--bad::before {
+	background-position: -575px -107px;;
+}
+.faq__item--top .faq__category--balance::before {
+	background-position: -670px -107px;;
+}
+.faq__item--top .faq__category--best::before {
+	background-position: -766px -107px;;
+}
+.faq__item--top .faq__category--business::before {
+	background-position: -860px -107px;;
+}
+.faq__item--top .faq__category--banks::before {
+	background-position: -955px -107px;;
+}
+.faq__item--top .faq__category--fees::before {
+	background-position: -1050px -107px;;
+}
+.faq__item--top .faq__category--rewards::before {
+	background-position: -575px -197px;
+}
+.faq__item--top .faq__category--fair::before {
+	background-position: -670px -197px;
+}
+.faq__item--top .faq__category--foreign::before {
+	background-position: -766px -198px;
+}
+.faq__item--top .faq__category--instant::before {
+	background-position: -860px -197px;
+}
+.faq__item--top .faq__category--low-rate::before {
+	background-position: -955px -197px;
+}
+.faq__item--top .faq__category--mastercard::before {
+	background-position: -1050px -197px;
+}
+.faq__item--top .faq__category--no-credit::before {
+	background-position: -575px -287px;
+}
+.faq__item--top .faq__category--prepaid::before {
+	background-position: -670px -287px;
+}
+.faq__item--top .faq__category--secured::before {
+	background-position: -766px -287px;
+}
+.faq__item--top .faq__category--student::before {
+	background-position: -860px -287px;
+}
+.faq__item--top .faq__category--visa::before {
+	background-position: -955px -287px;
+}
+.faq__item--top .faq__category--travel::before {
+	background-position: -1050px -287px;
+}
+
 .faq__content {
-	width: 83%;
+	width: 81%;
 	font-family: Arial;
 	font-size: 16px;
+}
+
+.faq__item--top .faq__content {
+  width: 86%;
 }
 
 .faq__date {
@@ -210,7 +270,7 @@
 	margin: 0 0 15px 0;
 	padding: 10px 20px;
 }
-.sidebar-search h2
+.sidebar-search h4
 {
 	color: #4d4d4d;
 	font-family: "Trebuchet MS";
@@ -223,14 +283,15 @@
 	text-transform: uppercase;
 }
 
-.sidebar-faq-categories
-{
+.sidebar-faq-categories {
 	background-color: #e5f1ff;
 	margin: 0 0 15px 0;
 	padding: 10px 20px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #205fad;
 }
-.sidebar-faq-categories h2
-{
+.sidebar-faq-categories h4 {
 	color: #4d4d4d;
 	font-family: "Trebuchet MS";
 	font-size: 24px;
@@ -241,7 +302,91 @@
 	text-align: center;
 	text-transform: uppercase;
 }
-
+.sidebar-faq-categories-list {
+	list-style: none;
+	padding-left: 65px;
+}
+.sidebar-faq-categories-item {
+position: relative;
+	margin-bottom: 35px;
+}
+.sidebar-faq-categories-item::before {
+	content: "";
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	top: -12px;
+	left: -65px;
+	background-image: url("../build/images/FAQs/FAQ_sprites.png");
+}
+.sidebar-faq-categories-item--bad::before {
+	background-position: 0 0;
+}
+.sidebar-faq-categories-item--balance::before {
+	background-position: -55px 0;
+}
+.sidebar-faq-categories-item--best::before {
+	background-position: -110px 0;
+}
+.sidebar-faq-categories-item--business::before {
+	background-position: -165px 0;
+}
+.sidebar-faq-categories-item--banks::before {
+	background-position: -220px 0;
+}
+.sidebar-faq-categories-item--fees::before {
+	background-position: -275px 0;
+}
+.sidebar-faq-categories-item--reward::before {
+	background-position: -330px 0;
+}
+.sidebar-faq-categories-item--fair::before {
+	background-position: -385px 0;
+}
+.sidebar-faq-categories-item--foreign::before {
+	background-position: -440px 0;
+}
+.sidebar-faq-categories-item--instant::before {
+	background-position: -495px 0;
+}
+.sidebar-faq-categories-item--low-rate::before {
+	background-position: 0 -50px;
+}
+.sidebar-faq-categories-item--mastercard::before {
+	background-position: -55px -50px;
+}
+.sidebar-faq-categories-item--no-credit::before {
+	background-position: -110px -50px;
+}
+.sidebar-faq-categories-item--prepaid::before {
+	background-position: -165px -50px;
+}
+.sidebar-faq-categories-item--secured::before {
+	background-position: -220px -50px;
+}
+.sidebar-faq-categories-item--student::before {
+	background-position: -275px -50px;
+}
+.sidebar-faq-categories-item--visa::before {
+	background-position: -330px -50px;
+}
+.sidebar-faq-categories-item--travel::before {
+	background-position: -385px -50px;
+}
+.sidebar-categories-mc {
+	border-top: solid 1px #609cf0;
+	margin: 0;
+	padding: 5px 0 10px 0;
+	text-align: right;
+}
+.sidebar-categories-mc span:hover,
+.sidebar-categories-mc span:focus
+ {
+	text-decoration: underline;
+}
+.js-visually-hidden {
+	display: none;
+}
 .subscribe
 {
 	background-color: #054086;

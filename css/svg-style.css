@@ -3,8 +3,8 @@
 	font-family: 'iconfont';
 	font-style: normal;
 	font-weight: normal;
-	src: url("../../build/svg/iconfont.eot?#iefix-?1518174462882") format("embedded-opentype"),url("../../build/svg/iconfont.woff2?1518174462882") format("woff2"),url("../../build/svg/iconfont.woff?1518174462882") format("woff"),url("../../build/svg/iconfont.ttf?1518174462882") format("truetype");
-	src: url("../../build/svg/iconfont.eot?1518174462882");
+	src: url("../build/svg/iconfont.eot") format("embedded-opentype"),url("../build/svg/iconfont.woff2") format("woff2"),url("../build/svg/iconfont.woff") format("woff"),url("../build/svg/iconfont.ttf") format("truetype");
+	src: url("../build/svg/iconfont.eot");
 }
 [class^='icon-']:before,[class*=' icon-']:before
 {
