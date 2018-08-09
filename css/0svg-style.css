@@ -1,0 +1,204 @@
+@font-face
+{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../build/svg/iconfont.eot") format("embedded-opentype"),url("../build/svg/iconfont.woff2") format("woff2"),url("../build/svg/iconfont.woff") format("woff"),url("../build/svg/iconfont.ttf") format("truetype");
+	src: url("../build/svg/iconfont.eot");
+}
+[class^='icon-']:before,[class*=' icon-']:before
+{
+	display: inline-block;
+	font-family: 'iconfont';
+	font-size: inherit;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	moz-osx-font-smoothing: grayscale;
+	speak: none;
+	text-decoration: inherit;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	vertical-align: middle;
+	webkit-font-smoothing: antialiased;
+}
+.icon-airplane1:before
+{
+	content: '\ea01';
+}
+.icon-annualfee:before
+{
+	content: '\ea02';
+}
+.icon-apr:before
+{
+	content: '\ea03';
+}
+.icon-bad:before
+{
+	content: '\ea04';
+}
+.icon-badcredit:before
+{
+	content: '\ea05';
+}
+.icon-best:before
+{
+	content: '\ea06';
+}
+.icon-bestcards:before
+{
+	content: '\ea07';
+}
+.icon-bonus:before
+{
+	content: '\ea08';
+}
+.icon-cashback:before
+{
+	content: '\ea09';
+}
+.icon-credit-reporting:before
+{
+	content: '\ea0a';
+}
+.icon-details-balance-transfers:before
+{
+	content: '\ea0b';
+}
+.icon-details-card-features:before
+{
+	content: '\ea0c';
+}
+.icon-details-cash-advance:before
+{
+	content: '\ea0d';
+}
+.icon-details-fees-and-terms:before
+{
+	content: '\ea0e';
+}
+.icon-details-general-fees:before
+{
+	content: '\ea0f';
+}
+.icon-details-loan-requirements:before
+{
+	content: '\ea10';
+}
+.icon-details-maintenance-fees:before
+{
+	content: '\ea11';
+}
+.icon-details-overdraft:before
+{
+	content: '\ea12';
+}
+.icon-details-pourchases:before
+{
+	content: '\ea13';
+}
+.icon-details-usage-limits:before
+{
+	content: '\ea14';
+}
+.icon-instant-responce:before
+{
+	content: '\ea15';
+}
+.icon-intro-apr:before
+{
+	content: '\ea16';
+}
+.icon-landings_annualfee:before
+{
+	content: '\ea17';
+}
+.icon-landings_card_type:before
+{
+	content: '\ea18';
+}
+.icon-landings_check:before
+{
+	content: '\ea19';
+}
+.icon-landings_instant:before
+{
+	content: '\ea1a';
+}
+.icon-landings_introapr:before
+{
+	content: '\ea1b';
+}
+.icon-landings_maxloan:before
+{
+	content: '\ea1c';
+}
+.icon-landings_minloan:before
+{
+	content: '\ea1d';
+}
+.icon-landings_ongoingapr:before
+{
+	content: '\ea1e';
+}
+.icon-landings_plane:before
+{
+	content: '\ea1f';
+}
+.icon-landings_processingfee:before
+{
+	content: '\ea20';
+}
+.icon-landings_purchases:before
+{
+	content: '\ea21';
+}
+.icon-landings_rewards:before
+{
+	content: '\ea22';
+}
+.icon-landings_store:before
+{
+	content: '\ea23';
+}
+.icon-landings_tooltip:before
+{
+	content: '\ea24';
+}
+.icon-lowapr:before
+{
+	content: '\ea25';
+}
+.icon-ongoing-apr:before
+{
+	content: '\ea26';
+}
+.icon-plane:before
+{
+	content: '\ea27';
+}
+.icon-quote:before
+{
+	content: '\ea28';
+}
+.icon-rewards:before
+{
+	content: '\ea29';
+}
+.icon-round:before
+{
+	content: '\ea2a';
+}
+.icon-secured:before
+{
+	content: '\ea2b';
+}
+.icon-travel:before
+{
+	content: '\ea2c';
+}
+.icon-universal:before
+{
+	content: '\ea2d';
+}

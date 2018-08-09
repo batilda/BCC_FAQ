@@ -1,3 +1,14 @@
+        <div class="top-block-content-txttable">
+          <div class="top-block-content-txttable-right js-top-text-collapse-parent">
+            <div class="top-block-content-txttable-right-text top-block-content-txttable-right-text--faqs js-top-text-collapse">Do you have a million faqs jumbled up in your mind regarding credit cards and the credit card application process? Don't worry, you are not alone! Our site has been designed to be simple to use and navigate in order to eliminate any potential
+              hassles and frustrations surrounding the credit card application process. Our experts have already taken it upon themselves to thoroughly analyze and evaluate all of the popular credit card available on the market today and have laid them
+              out in an easy-to-understand format, touting the best features of each.
+            </div>
+          </div>
+        </div>
+
+
+
 как рисовать рейтинг:
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-5 {
     background-image: url(/build/sprites/banks-landings-respons.png?ef590e7Е);
