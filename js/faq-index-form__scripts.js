@@ -1,21 +1,4 @@
-// import './styles.scss';
-
-// import '../css/..blocks/form_styles.scss';
-//
-// import '../../../../lib/components/select2/src/scss/core.scss';
-// import $ from 'jquery';
-// import Statistic from 'statistic';
-// import popup from 'popup_v2';
-// import 'jquery.select2';
-
 function setFormState() {
-    $('#ask-popup-name').val($('#ask-name').val());
-    $('#ask-popup-email').val($('#ask-email').val());
-    $('#ask-popup-question').val($('#ask-question').val());
-
-    $('#ask-name').val('');
-    $('#ask-email').val('');
-    $('#ask-question').val('');
 
     let keys = {37: 1, 38: 1, 39: 1, 40: 1};
 
@@ -51,12 +34,13 @@ function setFormState() {
         document.onkeydown = null;
     }
 
-    let historyElement = $('#ask-popup-history');
+    let historyElement = $('#faq-index-form__history');
+    console.log('testHistory');
     historyElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose your credit",
-        containerCssClass: "select2-ask-popup",
-        dropdownCssClass: "select2-ask-popup"
+        containerCssClass: "select2-faq-index-form",
+        dropdownCssClass: "select2-faq-index-form"
     });
     historyElement.on('select2:opening', function () {
         disableScroll();
@@ -65,12 +49,12 @@ function setFormState() {
         enableScroll();
     });
 
-    let accountElement = $('#ask-popup-account');
+    let accountElement = $('#faq-index-form__account');
     accountElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
-        containerCssClass: "select2-ask-popup",
-        dropdownCssClass: "select2-ask-popup"
+        containerCssClass: "select2-faq-index-form",
+        dropdownCssClass: "select2-faq-index-form"
     });
     accountElement.on('select2:opening', function () {
         disableScroll();
@@ -79,12 +63,12 @@ function setFormState() {
         enableScroll();
     });
 
-    let howlongElement = $('#ask-popup-howlong');
+    let howlongElement = $('#faq-index-form__howlong');
     howlongElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
-        containerCssClass: "select2-ask-popup",
-        dropdownCssClass: "select2-ask-popup"
+        containerCssClass: "select2-faq-index-form",
+        dropdownCssClass: "select2-faq-index-form"
     });
     howlongElement.on('select2:opening', function () {
         disableScroll();
@@ -93,12 +77,12 @@ function setFormState() {
         enableScroll();
     });
 
-    let bankruptElement = $('#ask-popup-bankrupt');
+    let bankruptElement = $('#faq-index-form__bankrupt');
     bankruptElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
-        containerCssClass: "select2-ask-popup",
-        dropdownCssClass: "select2-ask-popup"
+        containerCssClass: "select2-faq-index-form",
+        dropdownCssClass: "select2-faq-index-form"
     });
     bankruptElement.on('select2:opening', function () {
         disableScroll();
@@ -107,12 +91,12 @@ function setFormState() {
         enableScroll();
     });
 
-    let beenlateElement = $('#ask-popup-beenlate');
+    let beenlateElement = $('#faq-index-form__beenlate');
     beenlateElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
-        containerCssClass: "select2-ask-popup",
-        dropdownCssClass: "select2-ask-popup"
+        containerCssClass: "select2-faq-index-form",
+        dropdownCssClass: "select2-faq-index-form"
     });
     beenlateElement.on('select2:opening', function () {
         disableScroll();
@@ -121,33 +105,10 @@ function setFormState() {
         enableScroll();
     });
 
-    $('.faqindex__form-submit').on('click', function () {
 
-            $('.faqindex__form-selects').display('block');
-            console.log('Try to show selects');
-
-    });
-
-
-     $('.ask-a-question-popup-addblock-agree').on('click', function () {
-         if ($('#ask-popup-agree').val() === '0') {
-             $('.ask-a-question-popup-addblock-agree-cb-ckd').show();
-             $('#ask-popup-agree').val('1');
-         }
-         else {
-             $('.ask-a-question-popup-addblock-agree-cb-ckd').hide();
-             $('#ask-popup-agree').val('0');
-         }
-     });
-
-    if($("#askPopupRecaptcha").length){
-        window.widgetAskPopup = grecaptcha.render("askPopupRecaptcha", {
-            "sitekey" : "6LdGuTcUAAAAAGrObH049lgAxbmv-HgC1BFsvz1z",
-            "callback" : "VerifyAndSubmitAskPopup"
-        });
-    }
 }
 
 $(document).ready(() => {
-   setFormState();
+    setFormState();
 });
+

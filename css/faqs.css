@@ -21,7 +21,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
 
   background-color: #004b8e;
-  background-image: url("../build/images/FAQs/faqs_bg_1920.jpg");
+  background-image: url("../img/faqs_bg_1920.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -183,7 +183,7 @@ input[type="radio"].visually-hidden {
   width: 82px;
   height: 82px;
 
-  background-image: url("../build/images/FAQs/FAQ_sprites.png");
+  background-image: url("../img/FAQ_sprites.png");
 }
 @media (max-width: 720px) {
   .faq__item-category::before {
@@ -689,7 +689,7 @@ input[type="radio"].visually-hidden {
   height: 24px;
 
   background-color: transparent;
-  background-image: url(../build/images/FAQs/FAQ_sprites.png);
+  background-image: url(../img/FAQ_sprites.png);
   background-repeat: no-repeat;
   background-position: -578px -14px;
   border: none;
@@ -793,7 +793,7 @@ input[type="radio"].visually-hidden {
   width: 47px;
   height: 47px;
 
-  background-image: url("../build/images/FAQs/FAQ_sprites.png");
+  background-image: url("../img/FAQ_sprites.png");
 }
 @media (max-width: 720px) {
   .sidebar-faq-categories-item::before {
