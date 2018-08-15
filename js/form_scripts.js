@@ -1,12 +1,9 @@
-// import './styles.scss';
-
-// import '../css/..blocks/form_styles.scss';
-//
-// import '../../../../lib/components/select2/src/scss/core.scss';
-// import $ from 'jquery';
-// import Statistic from 'statistic';
-// import popup from 'popup_v2';
-// import 'jquery.select2';
+import './styles.scss';
+import '../../../../lib/components/select2/src/scss/core.scss';
+import $ from 'jquery';
+import Statistic from 'statistic';
+import popup from 'popup_v2';
+import 'jquery.select2';
 
 function setFormState() {
     $('#ask-popup-name').val($('#ask-name').val());
@@ -121,24 +118,16 @@ function setFormState() {
         enableScroll();
     });
 
-    $('.faqindex__form-submit').on('click', function () {
-
-            $('.faqindex__form-selects').display('block');
-            console.log('Try to show selects');
-
+    $('.ask-a-question-popup-addblock-agree').on('click', function () {
+        if ($('#ask-popup-agree').val() === '0') {
+            $('.ask-a-question-popup-addblock-agree-cb-ckd').show();
+            $('#ask-popup-agree').val('1');
+        }
+        else {
+            $('.ask-a-question-popup-addblock-agree-cb-ckd').hide();
+            $('#ask-popup-agree').val('0');
+        }
     });
-
-
-     $('.ask-a-question-popup-addblock-agree').on('click', function () {
-         if ($('#ask-popup-agree').val() === '0') {
-             $('.ask-a-question-popup-addblock-agree-cb-ckd').show();
-             $('#ask-popup-agree').val('1');
-         }
-         else {
-             $('.ask-a-question-popup-addblock-agree-cb-ckd').hide();
-             $('#ask-popup-agree').val('0');
-         }
-     });
 
     if($("#askPopupRecaptcha").length){
         window.widgetAskPopup = grecaptcha.render("askPopupRecaptcha", {
@@ -149,5 +138,11 @@ function setFormState() {
 }
 
 $(document).ready(() => {
-   setFormState();
+    popup.addCallBack('afterOpen', 'ask-a-question', setFormState);
+
+    Statistic.updateScreenResolution();
+});
+
+$(window).resize(function() {
+    $.fancybox.update();
 });

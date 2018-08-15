@@ -1,13 +1,29 @@
-        <div class="top-block-content-txttable">
-          <div class="top-block-content-txttable-right js-top-text-collapse-parent">
-            <div class="top-block-content-txttable-right-text top-block-content-txttable-right-text--faqs js-top-text-collapse">Do you have a million faqs jumbled up in your mind regarding credit cards and the credit card application process? Don't worry, you are not alone! Our site has been designed to be simple to use and navigate in order to eliminate any potential
-              hassles and frustrations surrounding the credit card application process. Our experts have already taken it upon themselves to thoroughly analyze and evaluate all of the popular credit card available on the market today and have laid them
-              out in an easy-to-understand format, touting the best features of each.
-            </div>
-          </div>
-        </div>
+"params":[
+    {"name":"", "email":"", "question":"", "history":"", "account":"", "howlong":"", "bankrupt":"", "beenlate":""} 
+]
 
 
+Препроцессор у нас используется SASS. Для него сразу сделано: To use a compiler in PhpStorm, you need to configure it as a File Watcher
+NodeJS скачан, но не стоит, потому что пароля админа нет
+HTMLи собирает шаблонизатор. Шаблонизатор у нас используется twig
+Для JS я пока не поняла, почему не работает Import в JS-файле - патамучта нет сборщика!
+У нас WebPack, разбирайся с ним теперь.
+
+
+Адвертайзер будет работать, когда подключу скрипт, работающий с 
+js-advertiser
+js-advertiser__window
+js-advertiser__close
+
+Меню для мобилы будет работать, когда подключу скрипт, работающий с 
+js-menu-button
+js-momile-menu
+
+Show more будет работать, когда подключу скрипт, работающий с 
+js-text-excerpt-top-block
+
+Тултип будет работать, когда подключу скрипт, работающий с 
+js-tooltip tooltipstered
 
 как рисовать рейтинг:
 .cards-content-item-top-right-top-cell.ratingicon .rating-value-5 {
@@ -39,14 +55,6 @@ Travel Credit Cards
 
 
 "После 4 и 8 вопроса выводится реклама Adsense." - после 4 и 7 вопроса и на картинке и по логике, текст надо исправить.
-
-Сайдбар сделала по аналогии с https://www.bestcreditoffers.com/credit-cards-for-maximum-savings-100.php (даже если были отклонения от дизайна)
-
-Для перестраивания перелинковок в разное количество колонок указала высоту напрямую:
-.faq__bottom {
-	display: flex;
-	height: 180px;
-}
 
 
 На странице

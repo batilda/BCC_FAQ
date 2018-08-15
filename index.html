@@ -29,7 +29,6 @@
 
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/faqs.css">
-  <!--<link rel="stylesheet" href="css/blocks/form_styles.css">-->
   <link rel="stylesheet" href="css/blocks/faq-index-form.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 
@@ -669,18 +668,18 @@
       <div class="faq-index-form__inputs">
         <div class="faq-index-form__column">
           <div class="faq-index-form__item">
-            <input type="text" id="faq-index-form__ask-name" class="faq-index-form__ask-name" value="" placeholder=" ">
-            <label for="faq-index-form__ask-name">Enter your Name:</label>
+            <input type="text" id="askFaqIndexFormName" class="faq-index-form__name" value="" placeholder=" ">
+            <label for="askFaqIndexFormName" class="faq-index-form__name-label" >Enter your Name:</label>
           </div>
           <div class="faq-index-form__item">
-            <input type="email" id="faq-index-form__ask-email" class="faq-index-form__ask-email" value="" placeholder=" " required>
-            <label for="faq-index-form__ask-email">Enter your Email:<span class="faq-index-form__asterisk">*</span></label>
+            <input type="email" id="askFaqIndexFormEmail" class="faq-index-form__email" value="" placeholder=" " required>
+            <label for="askFaqIndexFormEmail" class="faq-index-form__email-label">Enter your Email:<span class="faq-index-form__asterisk">*</span></label>
           </div>
         </div>
         <div class="faq-index-form__column">
           <div class="faq-index-form__item">
-            <textarea id="faq-index-form__ask-question" class="faq-index-form__ask-question" rows="5" required></textarea>
-            <label for="faq-index-form__ask-question">Ask your question:<span class="faq-index-form__asterisk">*</span></label>
+            <textarea id="askFaqIndexFormQuestion" class="faq-index-form__question" rows="5" required></textarea>
+            <label for="askFaqIndexFormQuestion" class="faq-index-form__question-label">Ask your question:<span class="faq-index-form__asterisk">*</span></label>
           </div>
         </div>
       </div>
@@ -690,7 +689,7 @@
         <div class="faq-index-form__selects-item">
           <div class="faq-index-form__selects-item-label">Your Credit History:</div>
           <div class="faq-index-form__selects-item-select">
-            <select id="faq-index-form__history">
+            <select id="askFaqIndexFormHistory">
               <option value="" selected="selected">Choose your credit</option>
               <option value="Excellent Credit">Excellent Credit</option>
               <option value="Good Credit">Good Credit</option>
@@ -704,7 +703,7 @@
         <div class="faq-index-form__selects-item">
           <div class="faq-index-form__selects-item-label">Do you have checking account?</div>
           <div class="faq-index-form__selects-item-select">
-            <select id="faq-index-form__account">
+            <select id="askFaqIndexFormAccount">
               <option value="" selected="selected">Choose an option</option>
               <option value="Yes">Yes</option>
               <option value="No">No</option>
@@ -714,7 +713,7 @@
         <div class="faq-index-form__selects-item">
           <div class="faq-index-form__selects-item-label">How long have you had a loan or credit card?</div>
           <div class="faq-index-form__selects-item-select">
-            <select id="faq-index-form__howlong">
+            <select id="askFaqIndexFormHowlong">
               <option value="" selected="selected">Choose an option</option>
               <option value="Never">Never</option>
               <option value="Less than 3 years ago">Less than 3 years ago</option>
@@ -727,7 +726,7 @@
             a loan?
           </div>
           <div class="faq-index-form__selects-item-select">
-            <select id="faq-index-form__bankrupt">
+            <select id="askFaqIndexFormBankrupt">
               <option value="" selected="selected">Choose an option</option>
               <option value="Never">Never</option>
               <option value="Once">Once</option>
@@ -740,7 +739,7 @@
             last year?
           </div>
           <div class="faq-index-form__selects-item-select">
-            <select id="faq-index-form__beenlate">
+            <select id="askFaqIndexFormBeenlate">
               <option value="" selected="selected">Choose an option</option>
               <option value="No">No</option>
               <option value="Less than 60 days">Less than 60 days</option>
@@ -750,31 +749,29 @@
           </div>
         </div>
         <div class="faq-index-form__selects-item">
-          <div class="faq-index-form__selects-item-label">Enter Number from picture:&nbsp<span
-              class="faq-index-form__asterisk">*</span></div>
-          <div class="faq-index-form__selects-item-captcha">
-            <input type="text" id="faq-index-form__ask-captcha" value="" required>
+          <div class="faq-index-form__selects-item-label faq-index-form__captcha-label">Enter Number from picture:&nbsp<span class="faq-index-form__asterisk">*</span>
           </div>
+            <input id="askFaqIndexFormCaptcha" class="faq-index-form__captcha" value="" required>
         </div>
       </div>
 
-      <div class="faq-index-form__agree-wrapper">
+      <div class="faq-index-form__addblock">
         <div class="faq-index-form__addblock-legend"><span class="faq-index-form__asterisk">*</span> -
           marked fields are required to be filled
         </div>
-        <div class="ask-a-question-popup-addblock-agree">
-          <div class="ask-a-question-popup-addblock-agree-left">
-            <div class="ask-a-question-popup-addblock-agree-cb">
-              <div class="ask-a-question-popup-addblock-agree-cb-ckd"></div>
-              <input type="hidden" id="ask-popup-agree" value="0">
+        <div class="faq-index-form__addblock-agree">
+          <div class="faq-index-form__addblock-agree-left">
+            <div class="faq-index-form__addblock-agree-cb">
+              <div class="faq-index-form__addblock-agree-cb-ckd"></div>
+              <input type="hidden" id="askFaqIndexFormAgree" value="0">
             </div>
           </div>
-          <div class="ask-a-question-popup-addblock-agree-right">
+          <div class="faq-index-form__addblock-agree-right">
             By submitting your question, you agree to the following:<span
-              class="ask-a-question-popup-redtext">*</span>
+              class="faq-index-form__redtext">*</span>
           </div>
         </div>
-        <div class="ask-a-question-popup-addblock-text">Here at BestCreditOffers.com we will answer all
+        <div class="faq-index-form__addblock-text">Here at BestCreditOffers.com we will answer all
           questions
           to the best of our knowledge and understanding, but we are not legally accredited professionals.
           We assume no liability for actions resulting from our advice and cannot guarantee the accuracy of
@@ -782,29 +779,8 @@
         </div>
       </div>
 
-      <div class="faq-index-form__agree-wrapper">
-        <div class="faq-index-form__legend"><span class="faq-index-form__asterisk">*</span>&nbsp-&nbspmarked fields are
-          required to be filled
-        </div>
-        <label class="faq-index-form__agree-checkbox">
-          <input type="checkbox" id="ask-agree-checkbox" class="ask-agree-checkbox visually-hidden">
-          <span for="ask-agree-checkbox" class="ask-agree-indicator"></span>By submitting your question, you
-          agree to the following:*
-        </label>
-        <div class="faq-index-form__disclaimer">Here at BestCreditOffers.com we will answer all questions to the
-          best of our knowledge and understanding, but we are not legally accredited professionals. We assume
-          no liability for actions resulting from our advice and cannot guarantee the
-          accuracy of information in all cases. Please seek appropriate professional or legal advice when
-          needed.
-        </div>
-      </div>
-
       <div class="faq-index-form__button">
-        <!-- ??? почему тут форма сделана не кнопкой, а ссылкой?
-         всё равно пока переделываю под выскакивание селектов по первому нажатию кнопки...
-        <a href="" id="ask-submit">ASK YOUR QUESTION</a>
-        -->
-        <a href="" class="faq-index-form__submit">ASK YOUR QUESTION</a>
+        <a id="askFaqIndexSubmit">ASK YOUR QUESTION</a>
       </div>
     </div>
 
