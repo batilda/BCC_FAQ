@@ -1,4 +1,4 @@
-// import '../css/blocks/faq-index-form.scss';
+// import "../css/blocks/faq-index-form.scss";
 
 function setFormState() {
 
@@ -20,173 +20,207 @@ function setFormState() {
 
     function disableScroll() {
         if (window.addEventListener)
-            window.addEventListener('DOMMouseScroll', preventDefault, false);
+            window.addEventListener("DOMMouseScroll", preventDefault, false);
         window.onwheel = preventDefault;
         window.onmousewheel = document.onmousewheel = preventDefault;
-        window.ontouchmove  = preventDefault;
-        document.onkeydown  = preventDefaultForScrollKeys;
+        window.ontouchmove = preventDefault;
+        document.onkeydown = preventDefaultForScrollKeys;
     }
 
     function enableScroll() {
         if (window.removeEventListener)
-            window.removeEventListener('DOMMouseScroll', preventDefault, false);
+            window.removeEventListener("DOMMouseScroll", preventDefault, false);
         window.onmousewheel = document.onmousewheel = null;
         window.onwheel = null;
         window.ontouchmove = null;
         document.onkeydown = null;
     }
 
-    let historyElement = $('#askFaqIndexFormHistory');
+    let historyElement = $("#askFaqIndexFormHistory");
     historyElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose your credit",
         containerCssClass: "select2-faq-index-form",
         dropdownCssClass: "select2-faq-index-form"
     });
-    historyElement.on('select2:opening', function () {
+    historyElement.on("select2:opening", function () {
         disableScroll();
     });
-    historyElement.on('select2:closing', function () {
+    historyElement.on("select2:closing", function () {
         enableScroll();
     });
 
-    let accountElement = $('#askFaqIndexFormAccount');
+    let accountElement = $("#askFaqIndexFormAccount");
     accountElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
         containerCssClass: "select2-faq-index-form",
         dropdownCssClass: "select2-faq-index-form"
     });
-    accountElement.on('select2:opening', function () {
+    accountElement.on("select2:opening", function () {
         disableScroll();
     });
-    accountElement.on('select2:closing', function () {
+    accountElement.on("select2:closing", function () {
         enableScroll();
     });
 
-    let howlongElement = $('#askFaqIndexFormHowlong');
+    let howlongElement = $("#askFaqIndexFormHowlong");
     howlongElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
         containerCssClass: "select2-faq-index-form",
         dropdownCssClass: "select2-faq-index-form"
     });
-    howlongElement.on('select2:opening', function () {
+    howlongElement.on("select2:opening", function () {
         disableScroll();
     });
-    howlongElement.on('select2:closing', function () {
+    howlongElement.on("select2:closing", function () {
         enableScroll();
     });
 
-    let bankruptElement = $('#askFaqIndexFormBankrupt');
+    let bankruptElement = $("#askFaqIndexFormBankrupt");
     bankruptElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
         containerCssClass: "select2-faq-index-form",
         dropdownCssClass: "select2-faq-index-form"
     });
-    bankruptElement.on('select2:opening', function () {
+    bankruptElement.on("select2:opening", function () {
         disableScroll();
     });
-    bankruptElement.on('select2:closing', function () {
+    bankruptElement.on("select2:closing", function () {
         enableScroll();
     });
 
-    let beenlateElement = $('#askFaqIndexFormBeenlate');
+    let beenlateElement = $("#askFaqIndexFormBeenlate");
     beenlateElement.select2({
         minimumResultsForSearch: -1,
         placeholder: "Choose an option",
         containerCssClass: "select2-faq-index-form",
         dropdownCssClass: "select2-faq-index-form"
     });
-    beenlateElement.on('select2:opening', function () {
+    beenlateElement.on("select2:opening", function () {
         disableScroll();
     });
-    beenlateElement.on('select2:closing', function () {
+    beenlateElement.on("select2:closing", function () {
         enableScroll();
     });
 
 
-    $('.faq-index-form__addblock-agree').on('click', function () {
-        if ($('#askFaqIndexFormAgree').val() === '0') {
-            $('.faq-index-form__addblock-agree-cb-ckd').show();
-            $('#askFaqIndexFormAgree').val('1');
+    $(".faq-index-form__addblock-agree").on("click", function () {
+        if ($("#askFaqIndexFormAgree").val() === "0") {
+            $(".faq-index-form__addblock-agree-cb-ckd").show();
+            $("#askFaqIndexFormAgree").val("1");
+            setValid($(".faq-index-form__addblock-agree-cb"), $(".faq-index-form__addblock-agree-right"), "");
         }
         else {
-            $('.faq-index-form__addblock-agree-cb-ckd').hide();
-            $('#askFaqIndexFormAgree').val('0');
+            $(".faq-index-form__addblock-agree-cb-ckd").hide();
+            $("#askFaqIndexFormAgree").val("0");
+            setInvalid($(".faq-index-form__addblock-agree-cb"), $(".faq-index-form__addblock-agree-right"), "");
         }
     });
 
-}
+    $(".faq-index-form__addblock-agree-cb").keyup(function(){
+        if(event.keyCode==13)
+        {
+            $(".faq-index-form__addblock-agree").click();
+            return false;
+        }
+    })
 
-$(document).ready(() => {
-    setFormState();
-});
+    $("#askFaqIndexSubmit").keyup(function(){
+        if(event.keyCode==13)
+        {
+            $(this).click();
+            return false;
+        }
+    })
+
+}
 
 
 function displaySelects() {
-    $('.faq-index-form__selects').css('display','block');
+    $(".faq-index-form__selects").css("display", "block");
 }
 
-function  submitForm() {
+function checkEmail(valEmail) {
+    let pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+    console.log("Емайл проверяется:");
+    if (pattern.test(valEmail)) {
+        console.log("Емайл правильный!");
+        checkEmail = true
+    } else {
+        checkEmail = false
+        console.log("Емайл неправильный!");
+    }
+}
 
+function setInvalid(elBox, elLabel, textLabel) {
+    elBox.addClass("invalid-box");
+    elLabel.addClass("invalid-text");
+    if (textLabel != "") {
+        elLabel.html(textLabel);
+    }
+}
+
+function setValid(elBox, elLabel, textLabel) {
+    elBox.removeClass("invalid-box");
+    elLabel.removeClass("invalid-text");
+    if (textLabel != "") {
+        elLabel.html(textLabel);
+    }
+}
+
+function submitForm() {
     function checkValidity() {
         checkValidity = true;
-        if ((email === '')||(question === '')||(captcha === '')||(agree === '0')) {
-            $('.faq-index-form').addClass('unfilled-form');
-            checkValidity = false;
+
+        // if (!checkEmail(email)) {
+        // почему функция не вызывается повторно???
+
+        let pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+        if(!pattern.test(email)) {
+            setInvalid($("#askFaqIndexFormEmail"), $(".faq-index-form__email-label"), "Please, enter valid e-mail");
+            checkValidity = false
         } else {
-            $('.faq-index-form').removeClass('unfilled-form');
+            setValid($("#askFaqIndexFormEmail"), $(".faq-index-form__email-label"), "Enter your Email:<span class='faq-index-form__asterisk'>*</span>");
         }
 
-        if (email === '' ) {
-            $('.faq-index-form__email').addClass('invalid-box');
-            $('.faq-index-form__email-label').addClass('invalid-text');
-            $('.faq-index-form__email-label').html('Please, enter valid e-mail');
+        if (question.trim() === "") {
+            setInvalid($("#askFaqIndexFormQuestion"), $(".faq-index-form__question-label"), "Please, enter your question:*");
             checkValidity = false;
         } else {
-            $('.faq-index-form__email').removeClass('invalid-box');
-            $('.faq-index-form__email-label').removeClass('invalid-text');
-            $('.faq-index-form__email-label').html('Enter your Email:<span class="faq-index-form__asterisk">*</span>');
+            setValid($("#askFaqIndexFormQuestion"), $(".faq-index-form__question-label"), "Ask your question:<span class='faq-index-form__asterisk'>*</span>");
         }
 
-        if (question === '' ) {
-            $('.faq-index-form__question').addClass('invalid-box');
-            $('.faq-index-form__question-label').addClass('invalid-text');
-            $('.faq-index-form__question-label').html('Please, enter your question:*');
+        if (captcha.trim() === "") {
+            setInvalid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
             checkValidity = false;
         } else {
-            $('.faq-index-form__question').removeClass('invalid-box');
-            $('.faq-index-form__question-label').removeClass('invalid-text');
-            $('.faq-index-form__question-label').html('Ask your question:<span class="faq-index-form__asterisk">*</span>');
+            if (captcha != "1234") {
+                setInvalid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
+                $(".faq-index-form__captcha-label").addClass("wrong-captcha");
+                checkValidity = false;
+            } else {
+                setValid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
+                $(".faq-index-form__captcha-label").removeClass("wrong-captcha");
+            }
         }
-
-        if (captcha === '' ) {
-            $('.faq-index-form__captcha').addClass('invalid-box');
-            $('.faq-index-form__captcha-label').addClass('invalid-text');
+        if (agree === "0") {
+            setInvalid($(".faq-index-form__addblock-agree-cb"), $(".faq-index-form__addblock-agree-right"), "");
             checkValidity = false;
         } else {
-            $('.faq-index-form__captcha').removeClass('invalid-box');
-            $('.faq-index-form__captcha-label').removeClass('invalid-text');
+            setValid($(".faq-index-form__addblock-agree-cb"), $(".faq-index-form__addblock-agree-right"), "");
         }
 
-        if (captcha !== '1234' ) {
-            $('.faq-index-form__captcha-label').addClass('wrong-captcha');
-            checkValidity = false;
+        if (!checkValidity) {
+            $(".faq-index-form").addClass("unfilled-form");
         } else {
-            $('.faq-index-form__captcha-label').removeClass('wrong-captcha');
+            $(".faq-index-form").removeClass("unfilled-form");
         }
 
-        if (agree === '0' ) {
-            $('.faq-index-form__addblock-agree-cb').addClass('invalid-box');
-            $('.faq-index-form__addblock-agree-right').addClass('invalid-text');
-            checkValidity = false;
-        } else {
-            $('.faq-index-form__addblock-agree-cb').removeClass('invalid-box');
-            $('.faq-index-form__addblock-agree-right').removeClass('invalid-text');
-        }
-
+        console.log(checkValidity);
+        return checkValidity;
     }
 
     let name = $("#askFaqIndexFormName").val();
@@ -201,6 +235,7 @@ function  submitForm() {
     let agree = $("#askFaqIndexFormAgree").val();
 
     if (checkValidity()) {
+        console.log("посылаем данные");
         let params = {};
         params.name = name;
         params.email = email;
@@ -212,19 +247,62 @@ function  submitForm() {
         params.beenlate = beenlate;
 
         $.ajax({
-            type: 'POST',
-            url: '/contact-us.php?334227act=contactform',
+            type: "POST",
+            // url: "/contact-us.php?334227act=contactform",
+            url: "http://localhost:8080/",
             data: params,
-            dataType: 'json',
+            dataType: "json",
         });
     }
 
 }
 
+$(document).ready(() => {
+    setFormState();
 
-$('#askFaqIndexSubmit').on('click', function () {
-    if ($('.faq-index-form__selects').css('display') == 'none') {
-        displaySelects();
-    } else
-    submitForm();
+    $("#askFaqIndexFormEmail").blur(function () {
+        // if (!checkEmail($(this).val())) {
+        let pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+        if(!pattern.test($(this).val())){
+            console.log("зашли внутрь чекЕмайл, невалидно " );
+            setInvalid($(this),$(".faq-index-form__email-label"),"Please, enter valid e-mail");
+        } else {
+            console.log("зашли внутрь чекЕмайл, валидно");
+            setValid($(this),$(".faq-index-form__email-label"),"Enter your Email:<span class='faq-index-form__asterisk'>*</span>");
+        }
+    });
+
+    $("#askFaqIndexFormQuestion").blur(function () {
+        if ($(this).val().trim() === "") {
+            setInvalid($(this),$(".faq-index-form__question-label"),"Please, enter your question:*");
+        } else {
+            setValid($(this), $(".faq-index-form__question-label"), "Ask your question:<span class='faq-index-form__asterisk'>*</span>");
+        }
+    });
+
+    $("#askFaqIndexFormCaptcha").blur(function () {
+        if ($(this).val() != "1234") {
+            setInvalid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
+            $(".faq-index-form__captcha-label").addClass("wrong-captcha");
+        } else {
+            setValid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
+            $(".faq-index-form__captcha-label").removeClass("wrong-captcha");
+        }
+    });
+
+
+    $("#askFaqIndexSubmit").on("click", function () {
+        if ($(".faq-index-form__selects").css("display") == "none") {
+            displaySelects();
+        } else
+            submitForm();
+    });
+
+    $("#askFaqIndexFormReloadCaptcha").on("click", function () {
+        console.log("Обновить капчу!");
+    });
+
 });
+
+
+

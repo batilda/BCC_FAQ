@@ -27,10 +27,11 @@
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/faqs.css">
   <link rel="stylesheet" href="css/blocks/faq-index-form.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
 
   <title>Credit Card faqs - BestCreditOffers.com</title>
   <meta name="description"
@@ -100,7 +101,7 @@
           <span></span>
           <span></span>
         </button>
-        <ul class="nav nav-mobile js-momile-menu">
+        <ul class="nav nav-mobile js-mobile-menu">
 
           <li class="active col-sm-2 nav_dropdown">
             <span>Top Offers</span>
@@ -664,22 +665,22 @@
 
     <div class="faq-index-form main_content">
       <div class="faq-index-form__cover"></div>
-      <h2>Have A Credit Card Question? Ask Our Experts</h2>
+        <h2>Have A Credit Card Question? <span class="second-row-title">Ask Our Experts</span></h2>
       <div class="faq-index-form__inputs">
         <div class="faq-index-form__column">
           <div class="faq-index-form__item">
-            <input type="text" id="askFaqIndexFormName" class="faq-index-form__name" value="" placeholder=" ">
+            <input type="text" id="askFaqIndexFormName" class="faq-index-form__name" placeholder=" " value="" tabindex="1">
             <label for="askFaqIndexFormName" class="faq-index-form__name-label" >Enter your Name:</label>
           </div>
           <div class="faq-index-form__item">
-            <input type="email" id="askFaqIndexFormEmail" class="faq-index-form__email" value="" placeholder=" " required>
-            <label for="askFaqIndexFormEmail" class="faq-index-form__email-label">Enter your Email:<span class="faq-index-form__asterisk">*</span></label>
+            <input type="email" id="askFaqIndexFormEmail" class="faq-index-form__email" placeholder=" " value="" required tabindex="2">
+            <label for="askFaqIndexFormEmail" class="faq-index-form__email-label">Enter your Email:<span class="red-asterisk">*</span></label>
           </div>
         </div>
         <div class="faq-index-form__column">
           <div class="faq-index-form__item">
-            <textarea id="askFaqIndexFormQuestion" class="faq-index-form__question" rows="5" required></textarea>
-            <label for="askFaqIndexFormQuestion" class="faq-index-form__question-label">Ask your question:<span class="faq-index-form__asterisk">*</span></label>
+            <textarea id="askFaqIndexFormQuestion" class="faq-index-form__question" rows="5" placeholder=" " required tabindex="3"></textarea>
+            <label for="askFaqIndexFormQuestion" class="faq-index-form__question-label">Ask your question:<span class="red-asterisk">*</span></label>
           </div>
         </div>
       </div>
@@ -687,23 +688,37 @@
       <div class="faq-index-form__selects">
         <div class="faq-index-form__selects-caption">Help us personalise your results</div>
         <div class="faq-index-form__selects-item">
-          <div class="faq-index-form__selects-item-label">Your Credit History:</div>
-          <div class="faq-index-form__selects-item-select">
-            <select id="askFaqIndexFormHistory">
-              <option value="" selected="selected">Choose your credit</option>
-              <option value="Excellent Credit">Excellent Credit</option>
-              <option value="Good Credit">Good Credit</option>
-              <option value="Fair Credit">Fair Credit</option>
-              <option value="Bad Credit">Bad Credit</option>
-              <option value="No Credit">No Credit</option>
-              <option value="Don't know">Don't know</option>
-            </select>
+          <div class="faq-index-form__selects-item-column">
+            <div class="faq-index-form__selects-item-label">Testing row:</div>
+          </div>
+          <div class="faq-index-form__selects-item-column">
+            <div class="faq-index-form__selects-item-select">
+              <div style="background-color: #fff; height: 28px;">Just testing div</div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-index-form__selects-item">
+          <div class="faq-index-form__selects-item-column">
+            <div class="faq-index-form__selects-item-label">Your Credit History:</div>
+          </div>
+          <div class="faq-index-form__selects-item-column">
+            <div class="faq-index-form__selects-item-select">
+              <select id="askFaqIndexFormHistory" tabindex="4">
+                <option value="" selected="selected">Choose your credit</option>
+                <option value="Excellent Credit">Excellent Credit</option>
+                <option value="Good Credit">Good Credit</option>
+                <option value="Fair Credit">Fair Credit</option>
+                <option value="Bad Credit">Bad Credit</option>
+                <option value="No Credit">No Credit</option>
+                <option value="Don't know">Don't know</option>
+              </select>
+            </div>
           </div>
         </div>
         <div class="faq-index-form__selects-item">
           <div class="faq-index-form__selects-item-label">Do you have checking account?</div>
           <div class="faq-index-form__selects-item-select">
-            <select id="askFaqIndexFormAccount">
+            <select id="askFaqIndexFormAccount" tabindex="5">
               <option value="" selected="selected">Choose an option</option>
               <option value="Yes">Yes</option>
               <option value="No">No</option>
@@ -713,7 +728,7 @@
         <div class="faq-index-form__selects-item">
           <div class="faq-index-form__selects-item-label">How long have you had a loan or credit card?</div>
           <div class="faq-index-form__selects-item-select">
-            <select id="askFaqIndexFormHowlong">
+            <select id="askFaqIndexFormHowlong" tabindex="6">
               <option value="" selected="selected">Choose an option</option>
               <option value="Never">Never</option>
               <option value="Less than 3 years ago">Less than 3 years ago</option>
@@ -726,7 +741,7 @@
             a loan?
           </div>
           <div class="faq-index-form__selects-item-select">
-            <select id="askFaqIndexFormBankrupt">
+            <select id="askFaqIndexFormBankrupt" tabindex="7">
               <option value="" selected="selected">Choose an option</option>
               <option value="Never">Never</option>
               <option value="Once">Once</option>
@@ -739,7 +754,7 @@
             last year?
           </div>
           <div class="faq-index-form__selects-item-select">
-            <select id="askFaqIndexFormBeenlate">
+            <select id="askFaqIndexFormBeenlate" tabindex="8">
               <option value="" selected="selected">Choose an option</option>
               <option value="No">No</option>
               <option value="Less than 60 days">Less than 60 days</option>
@@ -749,19 +764,21 @@
           </div>
         </div>
         <div class="faq-index-form__selects-item">
-          <div class="faq-index-form__selects-item-label faq-index-form__captcha-label">Enter Number from picture:&nbsp<span class="faq-index-form__asterisk">*</span>
+          <div class="faq-index-form__selects-item-label faq-index-form__captcha-label">Enter Number from picture:&nbsp<span class="red-asterisk">*</span>
           </div>
-            <input id="askFaqIndexFormCaptcha" class="faq-index-form__captcha" value="" required>
+            <input id="askFaqIndexFormCaptcha" class="faq-index-form__captcha" value="" required tabindex="9">
+            <img id="askFaqIndexFormShowCaptcha" class="faq-index-form__captcha-item" src="img/cipher_captcha.jpg">
+            <img id="askFaqIndexFormReloadCaptcha" class="faq-index-form__captcha-item" src="img/reload_captha.jpg" >
         </div>
       </div>
 
       <div class="faq-index-form__addblock">
-        <div class="faq-index-form__addblock-legend"><span class="faq-index-form__asterisk">*</span> -
+        <div class="faq-index-form__addblock-legend"><span class="red-asterisk">*</span> -
           marked fields are required to be filled
         </div>
         <div class="faq-index-form__addblock-agree">
           <div class="faq-index-form__addblock-agree-left">
-            <div class="faq-index-form__addblock-agree-cb">
+            <div class="faq-index-form__addblock-agree-cb" tabindex="10">
               <div class="faq-index-form__addblock-agree-cb-ckd"></div>
               <input type="hidden" id="askFaqIndexFormAgree" value="0">
             </div>
@@ -780,7 +797,7 @@
       </div>
 
       <div class="faq-index-form__button">
-        <a id="askFaqIndexSubmit">ASK YOUR QUESTION</a>
+        <a id="askFaqIndexSubmit" tabindex="11">ASK <span class="disappear-title">YOUR </span>QUESTION</a>
       </div>
     </div>
 

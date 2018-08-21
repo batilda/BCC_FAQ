@@ -26,6 +26,19 @@
     font-size: 28px;
     font-family: "Trebuchet MS";
     text-align: center;
+
+    @media(max-width: 1279px) {
+      font-size: 26px;
+    }
+
+    @media(max-width: 900px) {
+      font-size: 24px;
+    }
+
+    @media(max-width: 720px) {
+      font-size: 18px;
+    }
+
   }
 
   &__inputs {
@@ -81,10 +94,6 @@
     outline: 1px solid #237FDC;
   }
 
-  &__asterisk {
-    color: #ff3c3c;
-  }
-
   &__name-label,
   &__email-label,
   &__question-label {
@@ -98,6 +107,14 @@
     color: #999999;
     transform: translatex(-50%) translatey(-50%);
     cursor: pointer;
+
+    @media(max-width: 900px) {
+      font-size: 16px;
+    }
+
+    @media(max-width: 720px) {
+      font-size: 14px;
+    }
   }
 
   &__name:focus + label,
@@ -111,7 +128,7 @@
   }
 
   &__selects {
-    padding: 20px 2.5%;
+    padding: 20px 0;
     background-color: #237fdc;
     display: none;
 
@@ -124,14 +141,20 @@
     }
 
     &-item {
-      display: table;
+      display: flex;
       width: 100%;
       margin: 0 0 15px 0;
 
+      &-column {
+        width: 50%;
+      }
+
       &-label {
-        display: table-cell;
-        width: 52.6%;
+        //display: table-cell;
+        //width: 52.6%;
+        width: 90%;
         padding: 0 20px 0 0;
+        margin: 0 auto;
         font-size: 18px;
         line-height: 22px;
         font-family: "Trebuchet MS";
@@ -141,8 +164,10 @@
 
       &-select,
       &-captcha {
-        display: table-cell;
-        width: 47.4%;
+        //display: table-cell;
+        //width: 47.4%;
+        margin: 0 auto;
+        width: 90%;
         vertical-align: middle;
         color: #999;
       }
@@ -168,6 +193,10 @@
       padding: 0 0 20px 0;
     }
 
+    &-item {
+      margin-left: 10px;
+    }
+
   }
 
   &__addblock {
@@ -187,12 +216,12 @@
       color: #fff;
 
       @media(max-width: 900px) {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
       }
 
-      @media(max-width: 530px) {
-        font-size: 16px;
+      @media(max-width: 540px) {
+        font-size: 14px;
         line-height: 18px;
       }
     }
@@ -207,12 +236,12 @@
       color: #fff;
 
       @media(max-width: 900px) {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
       }
 
-      @media(max-width: 530px) {
-        font-size: 16px;
+      @media(max-width: 540px) {
+        font-size: 14px;
         line-height: 18px;
       }
 
@@ -229,6 +258,10 @@
         margin: 0 8px 0 0;
         position: relative;
         top: 2px;
+
+        &:focus {
+          outline: 1px solid #237FDC;
+        }
 
         @media(max-width: 700px) {
           width: 18px;
@@ -273,7 +306,7 @@
         padding: 20px 0 0 0;
       }
 
-      @media(max-width: 530px) {
+      @media(max-width: 540px) {
         font-size: 14px;
         line-height: 16px;
         padding: 15px 0 0 0;
@@ -307,6 +340,10 @@
       border-radius: 5px;
       cursor: pointer;
 
+      @media(max-width: 720px) {
+        font-size: 16px;
+      }
+
       &:hover,
       &:focus {
         background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #3591ed 100%);
@@ -330,14 +367,17 @@
   border-radius: 0 !important;
   border-bottom: none !important;
   position: relative;
-  width: 440px;
+  //width: 440px;
+  width: 100%;
 
   @media(max-width: 900px) {
-    width: 330px;
+    //width: 330px;
+    font-size: 16px;
   }
 
-  @media(max-width: 700px) {
-    width: 430px;
+  @media(max-width: 720px) {
+    //width: 430px;
+    font-size: 16px;
   }
 
   @media(max-width: 530px) {
@@ -391,19 +431,6 @@
 .select2-dropdown.select2-faq-index-form {
   border: none;
   border-radius: 0;
-
-  width: 440px !important;
-
-  @media(max-width: 900px) {
-    width: 330px !important;
-  }
-
-  @media(max-width: 700px) {
-    width: 430px !important;
-  }
-
-  @media(max-width: 530px) {
-    width: 260px !important;
   }
 
   .select2-results {
@@ -414,6 +441,14 @@
     border: none !important;
     border-radius: 0 !important;
     border-bottom: none !important;
+
+    @media (max-width: 900px){
+      font-size: 16px;
+    }
+
+    @media (max-width: 720px){
+      font-size: 14px;
+    }
 
     &__options {
       max-height: 300px !important;
@@ -434,7 +469,7 @@
         background-color: #55abff !important;
       }
     }
-  }
+
 }
 
 .select2-dropdown--above.select2-faq-index-form {
@@ -452,6 +487,41 @@
     border-top: none !important;
   }
 }
+
+.select2-container {
+  //перебиваю свойство из select2
+  display: block;
+}
+
+//не получается указать фокус визуально
+select:focus option {
+  outline: 1px solid #237FDC;
+  outline: 1px solid black;
+  color: #237FDC;
+}
+
+.second-row-title {
+  @media (max-width: 900px) and (min-width: 721px) {
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 430px) {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.disappear-title {
+  @media (max-width: 720px) {
+    font-size: 0;
+  }
+}
+
+.red-asterisk {
+  color: #ff3c3c;
+}
+
+
 
 .unfilled-form {
   position: relative;
@@ -489,9 +559,4 @@
     right: -120px;
   }
 }
-
-
-//&__email:not(:valid):not(:placeholder-shown):not(:focus) {
-//  outline: 1px solid #FF3B3B;
-//}
 

@@ -23,6 +23,15 @@
     font-size: 28px;
     font-family: "Trebuchet MS";
     text-align: center; }
+    @media (max-width: 1279px) {
+      .faq-index-form h2 {
+        font-size: 26px; } }
+    @media (max-width: 900px) {
+      .faq-index-form h2 {
+        font-size: 24px; } }
+    @media (max-width: 720px) {
+      .faq-index-form h2 {
+        font-size: 18px; } }
   .faq-index-form__inputs {
     display: flex; }
   .faq-index-form__column {
@@ -59,8 +68,6 @@
     outline: none; }
   .faq-index-form__name:focus, .faq-index-form__email:focus, .faq-index-form__question:focus {
     outline: 1px solid #237FDC; }
-  .faq-index-form__asterisk {
-    color: #ff3c3c; }
   .faq-index-form__name-label, .faq-index-form__email-label, .faq-index-form__question-label {
     position: absolute;
     top: 50%;
@@ -72,10 +79,16 @@
     color: #999999;
     transform: translatex(-50%) translatey(-50%);
     cursor: pointer; }
+    @media (max-width: 900px) {
+      .faq-index-form__name-label, .faq-index-form__email-label, .faq-index-form__question-label {
+        font-size: 16px; } }
+    @media (max-width: 720px) {
+      .faq-index-form__name-label, .faq-index-form__email-label, .faq-index-form__question-label {
+        font-size: 14px; } }
   .faq-index-form__name:focus + label, .faq-index-form__name:not(:placeholder-shown) + label, .faq-index-form__email:focus + label, .faq-index-form__email:valid + label, .faq-index-form__email:invalid:not(:placeholder-shown) + label, .faq-index-form__question:focus + label, .faq-index-form__question:valid + label {
     display: none; }
   .faq-index-form__selects {
-    padding: 20px 2.5%;
+    padding: 20px 0;
     background-color: #237fdc;
     display: none; }
     .faq-index-form__selects-caption {
@@ -85,21 +98,23 @@
       font-family: "Trebuchet MS";
       font-style: italic; }
     .faq-index-form__selects-item {
-      display: table;
+      display: flex;
       width: 100%;
       margin: 0 0 15px 0; }
+      .faq-index-form__selects-item-column {
+        width: 50%; }
       .faq-index-form__selects-item-label {
-        display: table-cell;
-        width: 52.6%;
+        width: 90%;
         padding: 0 20px 0 0;
+        margin: 0 auto;
         font-size: 18px;
         line-height: 22px;
         font-family: "Trebuchet MS";
         vertical-align: middle;
         text-align: left; }
       .faq-index-form__selects-item-select, .faq-index-form__selects-item-captcha {
-        display: table-cell;
-        width: 47.4%;
+        margin: 0 auto;
+        width: 90%;
         vertical-align: middle;
         color: #999; }
   .faq-index-form__captcha {
@@ -118,6 +133,8 @@
         display: block;
         text-align: center;
         padding: 0 0 20px 0; } }
+    .faq-index-form__captcha-item {
+      margin-left: 10px; }
   .faq-index-form__addblock {
     padding: 10px 2.5%;
     font-size: 20px;
@@ -133,11 +150,11 @@
       color: #fff; }
       @media (max-width: 900px) {
         .faq-index-form__addblock-legend {
-          font-size: 18px;
-          line-height: 20px; } }
-      @media (max-width: 530px) {
-        .faq-index-form__addblock-legend {
           font-size: 16px;
+          line-height: 20px; } }
+      @media (max-width: 540px) {
+        .faq-index-form__addblock-legend {
+          font-size: 14px;
           line-height: 18px; } }
     .faq-index-form__addblock-agree {
       display: table;
@@ -149,11 +166,11 @@
       color: #fff; }
       @media (max-width: 900px) {
         .faq-index-form__addblock-agree {
-          font-size: 18px;
-          line-height: 20px; } }
-      @media (max-width: 530px) {
-        .faq-index-form__addblock-agree {
           font-size: 16px;
+          line-height: 20px; } }
+      @media (max-width: 540px) {
+        .faq-index-form__addblock-agree {
+          font-size: 14px;
           line-height: 18px; } }
       .faq-index-form__addblock-agree-left {
         display: table-cell; }
@@ -166,6 +183,8 @@
         margin: 0 8px 0 0;
         position: relative;
         top: 2px; }
+        .faq-index-form__addblock-agree-cb:focus {
+          outline: 1px solid #237FDC; }
         @media (max-width: 700px) {
           .faq-index-form__addblock-agree-cb {
             width: 18px;
@@ -198,7 +217,7 @@
           font-size: 16px;
           line-height: 18px;
           padding: 20px 0 0 0; } }
-      @media (max-width: 530px) {
+      @media (max-width: 540px) {
         .faq-index-form__addblock-text {
           font-size: 14px;
           line-height: 16px;
@@ -225,6 +244,9 @@
       border: solid 1px #ffffff;
       border-radius: 5px;
       cursor: pointer; }
+      @media (max-width: 720px) {
+        .faq-index-form__button a {
+          font-size: 16px; } }
       .faq-index-form__button a:hover, .faq-index-form__button a:focus {
         background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #3591ed 100%);
         background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #3591ed 100%);
@@ -242,13 +264,13 @@
   border-radius: 0 !important;
   border-bottom: none !important;
   position: relative;
-  width: 440px; }
+  width: 100%; }
   @media (max-width: 900px) {
     .select2-selection--single.select2-faq-index-form {
-      width: 330px; } }
-  @media (max-width: 700px) {
+      font-size: 16px; } }
+  @media (max-width: 720px) {
     .select2-selection--single.select2-faq-index-form {
-      width: 430px; } }
+      font-size: 16px; } }
   @media (max-width: 530px) {
     .select2-selection--single.select2-faq-index-form {
       width: 260px; } }
@@ -286,37 +308,34 @@
 
 .select2-dropdown.select2-faq-index-form {
   border: none;
-  border-radius: 0;
-  width: 440px !important; }
+  border-radius: 0; }
+
+.select2-results {
+  font-family: "Trebuchet MS";
+  font-size: 18px;
+  line-height: 20px;
+  color: #4d4d4d;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: none !important; }
   @media (max-width: 900px) {
-    .select2-dropdown.select2-faq-index-form {
-      width: 330px !important; } }
-  @media (max-width: 700px) {
-    .select2-dropdown.select2-faq-index-form {
-      width: 430px !important; } }
-  @media (max-width: 530px) {
-    .select2-dropdown.select2-faq-index-form {
-      width: 260px !important; } }
-  .select2-dropdown.select2-faq-index-form .select2-results {
-    font-family: "Trebuchet MS";
-    font-size: 18px;
-    line-height: 20px;
-    color: #4d4d4d;
-    border: none !important;
-    border-radius: 0 !important;
-    border-bottom: none !important; }
-    .select2-dropdown.select2-faq-index-form .select2-results__options {
-      max-height: 300px !important; }
-    .select2-dropdown.select2-faq-index-form .select2-results__option {
-      padding: 12px 40px !important; }
-      @media (max-width: 700px) {
-        .select2-dropdown.select2-faq-index-form .select2-results__option {
-          padding: 10px 30px !important; } }
-      @media (max-width: 530px) {
-        .select2-dropdown.select2-faq-index-form .select2-results__option {
-          padding: 6px 16px !important; } }
-      .select2-dropdown.select2-faq-index-form .select2-results__option--highlighted[aria-selected] {
-        background-color: #55abff !important; }
+    .select2-results {
+      font-size: 16px; } }
+  @media (max-width: 720px) {
+    .select2-results {
+      font-size: 14px; } }
+  .select2-results__options {
+    max-height: 300px !important; }
+  .select2-results__option {
+    padding: 12px 40px !important; }
+    @media (max-width: 700px) {
+      .select2-results__option {
+        padding: 10px 30px !important; } }
+    @media (max-width: 530px) {
+      .select2-results__option {
+        padding: 6px 16px !important; } }
+    .select2-results__option--highlighted[aria-selected] {
+      background-color: #55abff !important; }
 
 .select2-dropdown--above.select2-faq-index-form .select2-results {
   border: solid 1px #23a8ff !important;
@@ -327,6 +346,30 @@
   border: solid 1px #23a8ff !important;
   border-radius: 0 !important;
   border-top: none !important; }
+
+.select2-container {
+  display: block; }
+
+select:focus option {
+  outline: 1px solid #237FDC;
+  outline: 1px solid black;
+  color: #237FDC; }
+
+@media (max-width: 900px) and (min-width: 721px) {
+  .second-row-title {
+    display: block;
+    margin: 0 auto; } }
+@media (max-width: 430px) {
+  .second-row-title {
+    display: block;
+    margin: 0 auto; } }
+
+@media (max-width: 720px) {
+  .disappear-title {
+    font-size: 0; } }
+
+.red-asterisk {
+  color: #ff3c3c; }
 
 .unfilled-form {
   position: relative; }
