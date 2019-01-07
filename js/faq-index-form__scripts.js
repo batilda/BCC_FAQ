@@ -145,13 +145,10 @@ function displaySelects() {
 
 function checkEmail(valEmail) {
     let pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-    console.log("Емайл проверяется:");
     if (pattern.test(valEmail)) {
-        console.log("Емайл правильный!");
         checkEmail = true
     } else {
         checkEmail = false
-        console.log("Емайл неправильный!");
     }
 }
 
@@ -193,19 +190,6 @@ function submitForm() {
             setValid($("#askFaqIndexFormQuestion"), $(".faq-index-form__question-label"), "Ask your question:<span class='faq-index-form__asterisk'>*</span>");
         }
 
-        if (captcha.trim() === "") {
-            setInvalid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
-            checkValidity = false;
-        } else {
-            if (captcha != "1234") {
-                setInvalid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
-                $(".faq-index-form__captcha-label").addClass("wrong-captcha");
-                checkValidity = false;
-            } else {
-                setValid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
-                $(".faq-index-form__captcha-label").removeClass("wrong-captcha");
-            }
-        }
         if (agree === "0") {
             setInvalid($(".faq-index-form__addblock-agree-cb"), $(".faq-index-form__addblock-agree-right"), "");
             checkValidity = false;
@@ -219,9 +203,13 @@ function submitForm() {
             $(".faq-index-form").removeClass("unfilled-form");
         }
 
-        console.log(checkValidity);
         return checkValidity;
     }
+
+    function handleResponse(){
+        alert('Load was performed.');
+    }
+
 
     let name = $("#askFaqIndexFormName").val();
     let email = $("#askFaqIndexFormEmail").val();
@@ -231,11 +219,25 @@ function submitForm() {
     let howlong = $("#askFaqIndexFormHowlong").val();
     let bankrupt = $("#askFaqIndexFormBankrupt").val();
     let beenlate = $("#askFaqIndexFormBeenlate").val();
-    let captcha = $("#askFaqIndexFormCaptcha").val();
     let agree = $("#askFaqIndexFormAgree").val();
 
     if (checkValidity()) {
-        console.log("посылаем данные");
+
+        // $.post(
+        //     "form_data.php",
+        //     {
+        //         email: "email",
+        //         question: "question"
+        //     },
+        //     onAjaxSuccess
+        // );
+        //
+        // function onAjaxSuccess(data)
+        // {
+        //     // Здесь мы получаем данные, отправленные сервером и выводим их на экран.
+        //     alert(data);
+        // }
+
         let params = {};
         params.name = name;
         params.email = email;
@@ -249,14 +251,21 @@ function submitForm() {
         $.ajax({
             type: "POST",
             // url: "/contact-us.php?334227act=contactform",
-            url: "http://localhost:8080/",
+            url: "/form_data.php",
             data: params,
-            dataType: "json",
+            dataType: "json"
+            //тут всеми учебниками для обработки предлагается использовать параметр success, но у меня он дает ошибку
+            // success: function(data) {
+            //     alert(data);
+            // }
+        }).done(function(msg) {
+            // и это тоже не работает
+            console.log( "Data Saved: " + msg );
         });
     }
-
 }
 
+//  Эксплорер выдаёт ошибку на это условие
 $(document).ready(() => {
     setFormState();
 
@@ -264,10 +273,8 @@ $(document).ready(() => {
         // if (!checkEmail($(this).val())) {
         let pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
         if(!pattern.test($(this).val())){
-            console.log("зашли внутрь чекЕмайл, невалидно " );
             setInvalid($(this),$(".faq-index-form__email-label"),"Please, enter valid e-mail");
         } else {
-            console.log("зашли внутрь чекЕмайл, валидно");
             setValid($(this),$(".faq-index-form__email-label"),"Enter your Email:<span class='faq-index-form__asterisk'>*</span>");
         }
     });
@@ -280,17 +287,6 @@ $(document).ready(() => {
         }
     });
 
-    $("#askFaqIndexFormCaptcha").blur(function () {
-        if ($(this).val() != "1234") {
-            setInvalid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
-            $(".faq-index-form__captcha-label").addClass("wrong-captcha");
-        } else {
-            setValid($("#askFaqIndexFormCaptcha"), $(".faq-index-form__captcha-label"), "");
-            $(".faq-index-form__captcha-label").removeClass("wrong-captcha");
-        }
-    });
-
-
     $("#askFaqIndexSubmit").on("click", function () {
         if ($(".faq-index-form__selects").css("display") == "none") {
             displaySelects();
@@ -298,9 +294,6 @@ $(document).ready(() => {
             submitForm();
     });
 
-    $("#askFaqIndexFormReloadCaptcha").on("click", function () {
-        console.log("Обновить капчу!");
-    });
 
 });
 

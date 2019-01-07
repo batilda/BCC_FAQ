@@ -1,0 +1,100 @@
+.top-block.theme_faqs {
+  padding: 0;
+  background-color: #004b8e;
+  background-image: url("../../img/faqs_bg_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+
+  @media (max-width: 1279px) {
+    background-image: url("../../img/faqs_bg_1279.jpg");
+    background-position: 80% 33px;
+  }
+
+  @media (max-width: 1200px) {
+    background-position: 70% 33px;
+  }
+
+  @media (max-width: 1100px) {
+    background-image: url("../../img/faqs_bg_1100.jpg");
+    background-position: 70% 0;
+  }
+
+  @media (max-width: 720px) {
+    background-image: url("../../img/faqs_bg_720.jpg");
+    background-position: 100% 33px;
+  }
+
+  @media (max-width: 650px) {
+    background-position: 90% 33px;
+  }
+
+  @media (max-width: 540px) {
+    background-image: url("../../img/faqs_bg_540.jpg");
+    background-position: 100% 0%;
+  }
+
+}
+
+.theme_faqs .breadcrumbs__block * {
+  color: #ffffff;
+}
+
+.theme_faqs .breadcrumbs__block:hover *,
+.theme_faqs .breadcrumbs__block:focus * {
+  color: #ffffff;
+}
+
+.top-block-text--faqs {
+  width: 80%;
+
+  @media (max-width: 720px) {
+    width: 70%;
+  }
+
+  @media (max-width: 540px) {
+    width: 70%;
+  }
+}
+
+.theme_faqs {
+  & h1 {
+    font-size: 36px;
+    font-family: "Trebuchet MS";
+    text-align: left;
+    color: #ffe875;
+    @media (max-width: 1279px) {
+      font-size: 30px;
+    }
+
+    @media (max-width: 720px) {
+      font-size: 18px;
+    }
+
+  }
+
+  & .top-block-text {
+    margin-bottom: 20px;
+
+    color: #ffffff;
+  }
+}
+
+.top-block-faq {
+  position: relative;
+  margin-left: -20px;
+  overflow: hidden;
+}
+
+.faq-item__opacity {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  bottom: -50px;
+  left: -50px;
+  z-index: 0;
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+

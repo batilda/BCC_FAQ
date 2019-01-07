@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/faq-index-form__scripts.js" line="177" />
-    <bookmark url="file://$PROJECT_DIR$/css/blocks/faq-index-form.scss" line="496" />
-    <bookmark url="file://$PROJECT_DIR$/css/blocks/faq-index-form.scss" line="490" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd3a677-8a51-48cf-823e-be2e7981d6ce" name="Default Changelist" comment="">
+    <list default="true" id="e5cfbe4e-da53-4968-b4ef-d09cfed034fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blocks/faq-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BCO_FAQ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCO_FAQ.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/0faq-index-form.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/form_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/form_styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/form_styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/faqs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/faqs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancybox_loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgr-top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cipher_captcha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs_bg_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/faqs_bg_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs_bg_320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs_bg_540.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/faqs_bg_540.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs_bg_720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/faqs_bg_720.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/reload_captha.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/faq-index-form__scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq-index-form__scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Примечания.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Примечания.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/faq_categories-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq_categories-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form_scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Примечания.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,93 +40,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1526945661">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="3" />
-          <entry key="js" value="7" />
-          <entry key="php" value="1" />
-          <entry key="scss" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="7" />
-          <entry key="PHP" value="1" />
-          <entry key="SCSS" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="24" />
-          <entry key="html" value="671" />
-          <entry key="js" value="2796" />
-          <entry key="scss" value="1593" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="24" />
-          <entry key="HTML" value="671" />
-          <entry key="JavaScript" value="2796" />
-          <entry key="SCSS" value="1593" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="BCO_FAQ" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1831">
-              <caret line="775" column="79" selection-start-line="775" selection-start-column="79" selection-end-line="775" selection-end-column="79" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="385" column="30" selection-start-line="385" selection-start-column="16" selection-end-line="385" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/faqs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/blocks/faq-index-form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="502" selection-start-line="502" selection-end-line="522" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/css/common.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/faq-index-form__scripts.js">
+        <entry file="file://$PROJECT_DIR$/css/blocks/faq-item.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+            <state relative-caret-position="377">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -116,73 +78,25 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>--invalid</find>
-      <find>right</find>
-      <find>inv</find>
-      <find>C62424</find>
-      <find>not-filled</find>
-      <find>invalid</find>
-      <find>faq-index-form__captcha-label</find>
-      <find>invalid-box</find>
-      <find>askFaqIndexFormEmail</find>
-      <find>askFaqIndexFormCaptcha</find>
-      <find>!checkCaptcha</find>
-      <find>checkCaptcha</find>
-      <find>askFaqIndexFormAgree</find>
-      <find>checkEmail</find>
-      <find>Enter your Email</find>
-      <find>focus</find>
-      <find>displaySelects</find>
-      <find>checkValidity</find>
-      <find>label</find>
-      <find>360</find>
-      <find>15</find>
-      <find>selects</find>
-      <find>select2-faq-index-form</find>
-      <find>select</find>
-      <find>momile</find>
-      <find>mobile</find>
-      <find>ask y</find>
-      <find>drop</find>
-      <find>faq-index-form__asterisk</find>
-      <find>asteris</find>
+      <find>breadcrumbs__block-element</find>
+      <find>Google adsense will be here</find>
+      <find>-last</find>
+      <find>faq-item--last</find>
+      <find>July 28, 2018</find>
+      <find>--last</find>
     </findStrings>
-    <replaceStrings>
-      <replace>../img/</replace>
-      <replace>faq-index-form</replace>
-      <replace>select2-faq-index-form</replace>
-      <replace>faq-index-form__</replace>
-      <replace>invalid</replace>
-      <replace>C62424</replace>
-      <replace>unfilled</replace>
-      <replace>&quot;</replace>
-      <replace>checkTheEmail</replace>
-      <replace>red__asterisk</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/faqs.css" />
-        <option value="$PROJECT_DIR$/css/blocks/faqindex__form.css" />
-        <option value="$PROJECT_DIR$/css/blocks/faqindex__form.scss" />
-        <option value="$PROJECT_DIR$/js/form_scripts.js" />
-        <option value="$PROJECT_DIR$/css/blocks/form_styles.scss" />
-        <option value="$PROJECT_DIR$/js/faq-index-form__scripts.js" />
-        <option value="$PROJECT_DIR$/css/blocks/faq-index-form.scss" />
+        <option value="$PROJECT_DIR$/css/blocks/faq-item.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/faqs.css" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
@@ -200,24 +114,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="BCO_FAQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BCO_FAQ" type="462c0819:PsiDirectoryNode" />
+              <item name="BCC_FAQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCC_FAQ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BCO_FAQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BCO_FAQ" type="462c0819:PsiDirectoryNode" />
+              <item name="BCC_FAQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCC_FAQ" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BCO_FAQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BCO_FAQ" type="462c0819:PsiDirectoryNode" />
+              <item name="BCC_FAQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCC_FAQ" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BCO_FAQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BCO_FAQ" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,13 +136,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Intensive\BCO_FAQ\css\blocks" />
-    </key>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,124 +156,68 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fbd3a677-8a51-48cf-823e-be2e7981d6ce" name="Default Changelist" comment="" />
-      <created>1533657346537</created>
+      <changelist id="e5cfbe4e-da53-4968-b4ef-d09cfed034fa" name="Default Changelist" comment="" />
+      <created>1546866458127</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533657346537</updated>
-      <workItem from="1533657349285" duration="1315000" />
-      <workItem from="1533835643365" duration="2695000" />
-      <workItem from="1533866307541" duration="915000" />
-      <workItem from="1533924116138" duration="490000" />
-      <workItem from="1533927523422" duration="945000" />
-      <workItem from="1534093917648" duration="5011000" />
-      <workItem from="1534176232093" duration="11569000" />
-      <workItem from="1534259692127" duration="10752000" />
-      <workItem from="1534350014726" duration="10911000" />
-      <workItem from="1534683937119" duration="15957000" />
-      <workItem from="1534781155267" duration="596000" />
-      <workItem from="1534811283898" duration="6297000" />
+      <updated>1546866458127</updated>
+      <workItem from="1546866461821" duration="1341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67453000" />
+    <option name="totallyTimeSpent" value="1341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1340" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918919" visible="true" weight="0.1328125" />
-      <window_info id="Structure" order="1" sideWeight="0.5081081" side_tool="true" weight="0.1234375" />
-      <window_info id="Favorites" order="2" sideWeight="0.4990991" weight="0.1203125" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/styles.scss" />
-    <entry file="file://$PROJECT_DIR$/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/js/faq_categories-more.js">
+    <entry file="file://$PROJECT_DIR$/css/blocks/faq-item.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/form_styles.scss" />
-    <entry file="file://$PROJECT_DIR$/css/faqindex__form.css" />
-    <entry file="file://$PROJECT_DIR$/css/form_styles.css" />
-    <entry file="file://$PROJECT_DIR$/css/blocks/faqindex__form.css" />
-    <entry file="file://$PROJECT_DIR$/css/blocks/faqindex__form.scss" />
-    <entry file="file://$PROJECT_DIR$/js/form_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1499">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/form_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="392" column="18" lean-forward="true" selection-start-line="392" selection-start-column="18" selection-end-line="392" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/faqs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="743" column="16" selection-start-line="743" selection-start-column="12" selection-end-line="743" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/faq-index-form__scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/faq-index-form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="502" selection-start-line="502" selection-end-line="522" />
+        <state relative-caret-position="377">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1831">
-          <caret line="775" column="79" selection-start-line="775" selection-start-column="79" selection-end-line="775" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="385" column="30" selection-start-line="385" selection-start-column="16" selection-end-line="385" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/faqs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>

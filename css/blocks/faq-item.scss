@@ -1,0 +1,163 @@
+.faq-item {
+  display: flex;
+  padding: 50px 20px 20px 0;
+
+  @media (max-width: 1279px) {
+    padding: 40px 20px 10px 0;
+  }
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    padding: 40px 20px 10px 20px;
+  }
+
+  &--top {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    padding: 35px 20px 55px 0;
+
+    @media (max-width: 720px) {
+      padding: 35px 20px 55px 20px;
+    }
+  }
+
+  &__category {
+    position: relative;
+    width: 18%;
+    padding: 0 20px 10px;
+    font-size: 16px;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    color: #205fad;
+
+    @media (max-width: 1279px) {
+        width: 25%;
+      }
+
+    @media (max-width: 720px) {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0 10px 0 0;
+        text-align: left;
+      }
+  }
+
+  &__content {
+    width: 82%;
+    font-size: 16px;
+    font-family: Arial;
+
+    @media(max-width: 1279px) {
+        width: 75%;
+      }
+
+    @media(max-width: 720px) {
+        font-size: 14px;
+      }
+  }
+
+  &__date {
+    margin-bottom: 5px;
+    color: #666666;
+  }
+
+  &__ask {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: justify;
+
+    @media(max-width: 720px) {
+        font-size: 16px;
+      }
+  }
+
+  &__answer {
+    text-align: justify;
+    color: #4d4d4d;
+  }
+
+  &__continue {
+    display: block;
+    text-align: right;
+    color: #237fdc;
+
+    @media(max-width: 720px) {
+        font-size: 14px;
+      }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
+    &::after {
+      content: "\005E";
+      position: relative;
+      top: 2px;
+      right: 0;
+      color: #237fdc;
+      display: inline-block;
+      font: 20px "Times New Roman";
+      transform: rotate(90deg);
+      webkit-transform: rotate(90deg);
+    }
+  }
+
+  &__category svg {
+    display: block;
+    margin: 0 auto 15px;
+    width: 82px;
+    height: 82px;
+
+    @media (max-width: 720px) {
+      display: inline;
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+      width: 72px;
+      height: 72px;
+    }
+
+    @media (max-width: 540px) {
+      width: 60px;
+      height: 60px;
+    }
+
+    & .str0 {
+      stroke: #205FAD;
+      stroke-width: 2px;
+      //stroke-miterlimit: 22.9256;
+    }
+
+    & .fil0 {
+      fill: #205FAD;
+    }
+
+    & .fil1 {
+      fill: #FFF;
+      //fill-rule: nonzero;
+    }
+
+    & .fil2 {
+      fill: #205FAD;
+      //fill-rule: nonzero;
+    }
+
+    & .fil3 {
+      fill: #FFF;
+    }
+  }
+
+  &__category--top svg {
+    & .fil3 {
+      fill: #FFE875;
+    }
+
+  }
+
+ }
+
+
+
+

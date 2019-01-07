@@ -8,16 +8,12 @@
   background-size: contain;
   background-repeat: no-repeat;
 
-  &__cover {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    display: none;
-    width: 100%;
-    height: 100%;
-    background: #333333 url("../../fancybox_loading@2x.gif") no-repeat center center;
-    opacity: 0.3;
+  @media(max-width: 900px) {
+    padding: 30px 0 30px;
+  }
+
+  @media(max-width: 540px) {
+    padding: 25px 0 30px;
   }
 
   & h2 {
@@ -33,23 +29,26 @@
 
     @media(max-width: 900px) {
       font-size: 24px;
+      margin: 0 0 30px 0;
     }
 
     @media(max-width: 720px) {
       font-size: 18px;
+      margin: 0 0 20px 0;
     }
 
   }
 
   &__inputs {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__column {
     width: 50%;
 
     @media (max-width: 540px) {
-      width: 50%;
+      width: 100%;
     }
   }
 
@@ -58,6 +57,10 @@
     width: 100%;
     margin: 0 0 20px 0;
     text-align: center;
+
+    @media (max-width: 540px) {
+      margin: 0 0 15px 0;
+    }
   }
 
   &__name,
@@ -72,6 +75,18 @@
     border: none;
     resize: none;
     outline: none;
+
+    @media(max-width: 900px) {
+      font-size: 16px;
+    }
+
+    @media(max-width: 720px) {
+      font-size: 14px;
+    }
+
+    @media(max-width: 540px) {
+      height: 40px;
+    }
   }
 
   &__question {
@@ -85,8 +100,15 @@
     border: none;
     resize: none;
     outline: none;
-  }
 
+    @media(max-width: 900px) {
+      font-size: 16px;
+    }
+
+    @media(max-width: 540px) {
+      height: 90px;
+    }
+  }
 
   &__name:focus,
   &__email:focus,
@@ -132,26 +154,41 @@
     background-color: #237fdc;
     display: none;
 
+    @media(max-width: 721px) {
+      padding: 15px 0;
+    }
+
     &-caption {
       margin-bottom: 20px;
       font-size: 20px;
       text-align: center;
       font-family: "Trebuchet MS";
       font-style: italic;
+
+      @media(max-width: 900px) {
+        font-size: 18px;
+      }
+
+      @media(max-width: 540px) {
+        font-size: 16px;
+      }
     }
 
     &-item {
       display: flex;
-      width: 100%;
+      flex-wrap: wrap;
       margin: 0 0 15px 0;
+      margin-left: 10px;
 
       &-column {
         width: 50%;
+
+        @media (max-width: 540px) {
+          width: 100%;
+        }
       }
 
       &-label {
-        //display: table-cell;
-        //width: 52.6%;
         width: 90%;
         padding: 0 20px 0 0;
         margin: 0 auto;
@@ -160,41 +197,26 @@
         font-family: "Trebuchet MS";
         vertical-align: middle;
         text-align: left;
+
+        @media(max-width: 900px) {
+          font-size: 16px;
+        }
+
+        @media(max-width: 720px) {
+          font-size: 14px;
+        }
+
+        @media(max-width: 540px) {
+          margin: 0 auto 5px;
+        }
+
       }
 
-      &-select,
-      &-captcha {
-        //display: table-cell;
-        //width: 47.4%;
-        margin: 0 auto;
+      &-select {
         width: 90%;
-        vertical-align: middle;
         color: #999;
+        margin: 0 auto;
       }
-
-    }
-  }
-
-  &__captcha {
-    width: 82px;
-    height: 40px;
-    padding: 10px;
-    text-align: left;
-    vertical-align: middle;
-    background-color: #fff;
-    font-family: "Trebuchet MS";
-    font-size: 18px;
-    color: #4d4d4d;
-    outline: none;
-
-    @media(max-width: 700px) {
-      display: block;
-      text-align: center;
-      padding: 0 0 20px 0;
-    }
-
-    &-item {
-      margin-left: 10px;
     }
 
   }
@@ -210,6 +232,7 @@
 
     &-legend {
       padding: 0;
+      margin-bottom: 15px;
       font-family: "Trebuchet MS";
       font-size: 18px;
       line-height: 22px;
@@ -217,19 +240,20 @@
 
       @media(max-width: 900px) {
         font-size: 16px;
-        line-height: 20px;
+        margin-bottom: 10px;
       }
 
       @media(max-width: 540px) {
         font-size: 14px;
-        line-height: 18px;
+        margin-bottom: 5px;
       }
     }
 
     &-agree {
       display: table;
       cursor: pointer;
-      padding: 15px 0 0 0;
+      padding: 0;
+      margin-bottom: 15px;
       font-family: "Trebuchet MS";
       font-size: 18px;
       line-height: 22px;
@@ -237,12 +261,13 @@
 
       @media(max-width: 900px) {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 18px;
       }
 
-      @media(max-width: 540px) {
+      @media(max-width: 720px) {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 16px;
+        margin-bottom: 10px;
       }
 
       &-left {
@@ -293,7 +318,7 @@
     }
 
     &-text {
-      padding: 15px 0 0 0;
+      padding: 0;
       text-align: justify;
       font-family: Arial;
       font-size: 18px;
@@ -303,13 +328,11 @@
       @media(max-width: 900px) {
         font-size: 16px;
         line-height: 18px;
-        padding: 20px 0 0 0;
       }
 
       @media(max-width: 540px) {
         font-size: 14px;
         line-height: 16px;
-        padding: 15px 0 0 0;
       }
     }
   }
@@ -322,7 +345,7 @@
       display: inline-block;
       width: 220px;
       height: 45px;
-      margin: 20px 0;
+      margin: 20px 0 0;
 
       font-weight: 500;
       font-size: 18px;
@@ -367,21 +390,14 @@
   border-radius: 0 !important;
   border-bottom: none !important;
   position: relative;
-  //width: 440px;
   width: 100%;
 
   @media(max-width: 900px) {
-    //width: 330px;
     font-size: 16px;
   }
 
   @media(max-width: 720px) {
-    //width: 430px;
-    font-size: 16px;
-  }
-
-  @media(max-width: 530px) {
-    width: 260px;
+    font-size: 14px;
   }
 
   .select2-selection__rendered {
@@ -391,17 +407,25 @@
     text-align: center;
     display: block !important;
 
-    @media(max-width: 700px) {
+    @media(max-width: 720px) {
       padding-left: 30px !important;
     }
 
-    @media(max-width: 530px) {
+    @media(max-width: 540px) {
       padding-left: 15px !important;
     }
 
     .select2-selection__placeholder {
       text-align: center;
       display: block;
+
+      @media(max-width: 900px) {
+        font-size: 16px;
+      }
+
+      @media(max-width: 720px) {
+        font-size: 14px;
+      }
     }
   }
 
@@ -431,44 +455,44 @@
 .select2-dropdown.select2-faq-index-form {
   border: none;
   border-radius: 0;
+}
+
+.select2-results {
+  font-family: "Trebuchet MS";
+  font-size: 18px;
+  line-height: 20px;
+  color: #4d4d4d;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: none !important;
+
+  @media (max-width: 900px) {
+    font-size: 16px;
   }
 
-  .select2-results {
-    font-family: "Trebuchet MS";
-    font-size: 18px;
-    line-height: 20px;
-    color: #4d4d4d;
-    border: none !important;
-    border-radius: 0 !important;
-    border-bottom: none !important;
+  @media (max-width: 540px) {
+    font-size: 14px;
+  }
 
-    @media (max-width: 900px){
-      font-size: 16px;
+  &__options {
+    max-height: 300px !important;
+  }
+
+  &__option {
+    padding: 12px 40px !important;
+
+    @media(max-width: 720px) {
+      padding: 10px 30px !important;
     }
 
-    @media (max-width: 720px){
-      font-size: 14px;
+    @media(max-width: 540px) {
+      padding: 6px 16px !important;
     }
 
-    &__options {
-      max-height: 300px !important;
+    &--highlighted[aria-selected] {
+      background-color: #55abff !important;
     }
-
-    &__option {
-      padding: 12px 40px !important;
-
-      @media(max-width: 700px) {
-        padding: 10px 30px !important;
-      }
-
-      @media(max-width: 530px) {
-        padding: 6px 16px !important;
-      }
-
-      &--highlighted[aria-selected] {
-        background-color: #55abff !important;
-      }
-    }
+  }
 
 }
 
@@ -493,13 +517,6 @@
   display: block;
 }
 
-//не получается указать фокус визуально
-select:focus option {
-  outline: 1px solid #237FDC;
-  outline: 1px solid black;
-  color: #237FDC;
-}
-
 .second-row-title {
   @media (max-width: 900px) and (min-width: 721px) {
     display: block;
@@ -521,20 +538,29 @@ select:focus option {
   color: #ff3c3c;
 }
 
-
-
 .unfilled-form {
   position: relative;
 
   &::after {
     position: absolute;
+    width: 100%;
     content: 'Please fill in all the required fields (*)';
     font-family: "Trebuchet MS", Arial;
     font-size: 18px;
     color: #FF3B3B;
     top: 10px;
     left: 50%;
+    text-align: center;
     transform: translate(-50%);
+
+    @media (max-width: 900px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 540px) {
+      font-size: 14px;
+    }
+
   }
 }
 
@@ -544,19 +570,5 @@ select:focus option {
 
 .invalid-text {
   color: #FF3B3B;
-}
-
-.wrong-captcha {
-  position: relative;
-
-  &::after {
-    position: absolute;
-    content: 'Invalid security code';
-    font-family: "Trebuchet MS", Arial;
-    font-size: 18px;
-    color: #FF3B3B;
-    bottom: -25px;
-    right: -120px;
-  }
 }
 
