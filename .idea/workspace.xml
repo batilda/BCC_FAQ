@@ -2,37 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5cfbe4e-da53-4968-b4ef-d09cfed034fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/blocks/faq-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BCO_FAQ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BCO_FAQ.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/0faq-index-form.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/form_styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/form_styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/form_styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-top.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-top.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/faq-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/faq-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-item.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/faq-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-item.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/faqs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/faqs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backgr-top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cipher_captcha.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/faqs_bg_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/faqs_bg_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/faqs_bg_320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/faqs_bg_540.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/faqs_bg_540.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/faqs_bg_720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/faqs_bg_720.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reload_captha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/svg-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-bad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-balance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-banks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-best.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-business.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-fair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-fees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-foreign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-instant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-prepaid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-rat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-rewards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-secured.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-student.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-travel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgr-fair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgr-foreign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgr-rewards.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-bad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-balance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-banks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-best.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-fair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-fees.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-foreign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-instant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-mastercard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-prepaid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-rating.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-rewards.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-secured.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-student.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-travel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/categ-visa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Безымянный-1.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/faq-index-form__scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq-index-form__scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/faq_categories-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq_categories-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form_scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Примечания.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,21 +60,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="385" column="30" selection-start-line="385" selection-start-column="16" selection-end-line="385" selection-end-column="30" />
+            <state relative-caret-position="-45">
+              <caret line="204" column="14" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/blocks/faq-index-form.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/blocks/faq-index-top.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/faqs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="203">
+              <caret line="128" column="3" lean-forward="true" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -68,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/blocks/faq-item.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -84,6 +121,11 @@
       <find>faq-item--last</find>
       <find>July 28, 2018</find>
       <find>--last</find>
+      <find>sidebar-search</find>
+      <find>faq-item__category--top</find>
+      <find>fil</find>
+      <find>faq-item__category--</find>
+      <find>&lt;svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,25 +203,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546866458127</updated>
-      <workItem from="1546866461821" duration="1341000" />
+      <workItem from="1546866461821" duration="2284000" />
+      <workItem from="1546880436468" duration="903000" />
+      <workItem from="1546921137278" duration="1602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1341000" />
+    <option name="totallyTimeSpent" value="4789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1340" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -187,37 +226,78 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/blocks/faq-item.scss">
+    <entry file="file://$PROJECT_DIR$/css/svg-style.css" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-45">
+          <caret line="204" column="14" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/blocks/faq-index-form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="385" column="30" selection-start-line="385" selection-start-column="16" selection-end-line="385" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/faq-index-top.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/faq-item.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/faqs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="203">
+          <caret line="128" column="3" lean-forward="true" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
         </state>
       </provider>
     </entry>
