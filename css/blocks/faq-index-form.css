@@ -403,6 +403,12 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%); }
+    @media (max-width: 900px) {
+      .unfilled-form::after {
+        font-size: 16px; } }
+    @media (max-width: 540px) {
+      .unfilled-form::after {
+        font-size: 14px; } }
 
 .invalid-box {
   outline: 1px solid #FF3B3B; }

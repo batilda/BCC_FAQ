@@ -125,7 +125,7 @@
 
 @media (max-width: 1279px) {
   .sidebar-search {
-    display: none;
+    /*display: none;*/
   }
 }
 
