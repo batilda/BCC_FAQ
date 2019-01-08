@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5cfbe4e-da53-4968-b4ef-d09cfed034fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-form.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-index-top.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-index-top.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-item.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/faq-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/faq-item.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/faqs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/faqs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/svg-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-bad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-balance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-banks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-best.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-business.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-fair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-fees.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-foreign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-instant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-prepaid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-rat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-rewards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-secured.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-student.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-travel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backgr-fair.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backgr-foreign.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backgr-rewards.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-bad.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-balance.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-banks.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-best.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-business.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-fair.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-fees.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-foreign.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-instant.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-mastercard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-prepaid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-rating.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-rewards.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-secured.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-student.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-travel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/categ-visa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Безымянный-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/faqs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="128" column="3" lean-forward="true" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
@@ -205,12 +156,12 @@
       <updated>1546866458127</updated>
       <workItem from="1546866461821" duration="2284000" />
       <workItem from="1546880436468" duration="903000" />
-      <workItem from="1546921137278" duration="1602000" />
+      <workItem from="1546921137278" duration="1750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4789000" />
+    <option name="totallyTimeSpent" value="4937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1340" height="688" extended-state="0" />
@@ -296,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/faqs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="128" column="3" lean-forward="true" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>
